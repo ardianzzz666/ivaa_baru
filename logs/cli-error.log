@@ -1,0 +1,40 @@
+2020-01-23 06:37:33 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ivaa_new.artist' doesn't exist in /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Database/Schema/Collection.php on line 142
+Stack Trace:
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:100
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php:84
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/ORM/Table.php:500
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/ORM/Table.php:640
+- /var/www/html/ivaa_new/vendor/cakephp/bake/src/Command/ModelCommand.php:199
+- /var/www/html/ivaa_new/vendor/cakephp/bake/src/Command/ModelCommand.php:122
+- /var/www/html/ivaa_new/vendor/cakephp/bake/src/Command/ModelCommand.php:98
+- /var/www/html/ivaa_new/vendor/cakephp/bake/src/Command/ModelCommand.php:81
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Console/BaseCommand.php:175
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /var/www/html/ivaa_new/bin/cake.php:12
+
+Caused by: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ivaa_new.artist' doesn't exist in /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 40
+Stack Trace:
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php:40
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Database/Connection.php:349
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Database/Connection.php:352
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Database/Connection.php:301
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Database/Connection.php:305
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:140
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:100
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php:84
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/ORM/Table.php:500
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/ORM/Table.php:640
+- /var/www/html/ivaa_new/vendor/cakephp/bake/src/Command/ModelCommand.php:199
+- /var/www/html/ivaa_new/vendor/cakephp/bake/src/Command/ModelCommand.php:122
+- /var/www/html/ivaa_new/vendor/cakephp/bake/src/Command/ModelCommand.php:98
+- /var/www/html/ivaa_new/vendor/cakephp/bake/src/Command/ModelCommand.php:81
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Console/BaseCommand.php:175
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /var/www/html/ivaa_new/bin/cake.php:12
+
+
+

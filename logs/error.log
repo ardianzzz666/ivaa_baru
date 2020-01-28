@@ -1,0 +1,835 @@
+2020-01-20 01:56:03 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2020-01-20 01:56:03 Error: [Cake\Datasource\Exception\MissingDatasourceConfigException] The datasource configuration "debug_kit" was not found. in /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php on line 202
+Exception Attributes: array (
+  'name' => 'debug_kit',
+)
+Stack Trace:
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:209
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/ToolbarService.php:232
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_new/webroot/index.php:40
+- /var/www/html/ivaa_new/index.php:16
+
+Request URL: /
+
+
+2020-01-20 01:56:07 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2020-01-20 01:56:07 Error: [Cake\Datasource\Exception\MissingDatasourceConfigException] The datasource configuration "debug_kit" was not found. in /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php on line 202
+Exception Attributes: array (
+  'name' => 'debug_kit',
+)
+Stack Trace:
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:209
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/ToolbarService.php:232
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_new/webroot/index.php:40
+- /var/www/html/ivaa_new/index.php:16
+
+Request URL: /
+
+
+2020-01-20 01:56:08 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2020-01-20 01:56:08 Error: [Cake\Datasource\Exception\MissingDatasourceConfigException] The datasource configuration "debug_kit" was not found. in /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php on line 202
+Exception Attributes: array (
+  'name' => 'debug_kit',
+)
+Stack Trace:
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:209
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/ToolbarService.php:232
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_new/webroot/index.php:40
+- /var/www/html/ivaa_new/index.php:16
+
+Request URL: /
+
+
+2020-01-20 02:05:04 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2020-01-20 02:05:04 Error: [Cake\Datasource\Exception\MissingDatasourceConfigException] The datasource configuration "debug_kit" was not found. in /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php on line 202
+Exception Attributes: array (
+  'name' => 'debug_kit',
+)
+Stack Trace:
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:209
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/ToolbarService.php:232
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_new/webroot/index.php:40
+- /var/www/html/ivaa_new/index.php:16
+
+Request URL: /
+
+
+2020-01-20 02:07:08 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2020-01-20 02:07:08 Error: [Cake\Datasource\Exception\MissingDatasourceConfigException] The datasource configuration "debug_kit" was not found. in /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php on line 202
+Exception Attributes: array (
+  'name' => 'debug_kit',
+)
+Stack Trace:
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:209
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/ToolbarService.php:232
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_new/webroot/index.php:40
+- /var/www/html/ivaa_new/index.php:16
+
+Request URL: /
+
+
+2020-01-20 02:07:10 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2020-01-20 02:07:10 Error: [Cake\Datasource\Exception\MissingDatasourceConfigException] The datasource configuration "debug_kit" was not found. in /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php on line 202
+Exception Attributes: array (
+  'name' => 'debug_kit',
+)
+Stack Trace:
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:209
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/ToolbarService.php:232
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_new/webroot/index.php:40
+- /var/www/html/ivaa_new/index.php:16
+
+Request URL: /
+
+
+2020-01-20 02:07:10 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2020-01-20 02:07:10 Error: [Cake\Datasource\Exception\MissingDatasourceConfigException] The datasource configuration "debug_kit" was not found. in /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php on line 202
+Exception Attributes: array (
+  'name' => 'debug_kit',
+)
+Stack Trace:
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:209
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/ToolbarService.php:232
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_new/webroot/index.php:40
+- /var/www/html/ivaa_new/index.php:16
+
+Request URL: /
+
+
+2020-01-20 02:07:11 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2020-01-20 02:07:11 Error: [Cake\Datasource\Exception\MissingDatasourceConfigException] The datasource configuration "debug_kit" was not found. in /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php on line 202
+Exception Attributes: array (
+  'name' => 'debug_kit',
+)
+Stack Trace:
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:209
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/ToolbarService.php:232
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_new/webroot/index.php:40
+- /var/www/html/ivaa_new/index.php:16
+
+Request URL: /
+
+
+2020-01-20 02:07:11 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2020-01-20 02:07:11 Error: [Cake\Datasource\Exception\MissingDatasourceConfigException] The datasource configuration "debug_kit" was not found. in /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php on line 202
+Exception Attributes: array (
+  'name' => 'debug_kit',
+)
+Stack Trace:
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:209
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/ToolbarService.php:232
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_new/webroot/index.php:40
+- /var/www/html/ivaa_new/index.php:16
+
+Request URL: /
+
+
+2020-01-20 02:07:11 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2020-01-20 02:07:11 Error: [Cake\Datasource\Exception\MissingDatasourceConfigException] The datasource configuration "debug_kit" was not found. in /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php on line 202
+Exception Attributes: array (
+  'name' => 'debug_kit',
+)
+Stack Trace:
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:209
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/ToolbarService.php:232
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_new/webroot/index.php:40
+- /var/www/html/ivaa_new/index.php:16
+
+Request URL: /
+
+
+2020-01-20 02:07:11 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2020-01-20 02:07:11 Error: [Cake\Datasource\Exception\MissingDatasourceConfigException] The datasource configuration "debug_kit" was not found. in /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php on line 202
+Exception Attributes: array (
+  'name' => 'debug_kit',
+)
+Stack Trace:
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:209
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/ToolbarService.php:232
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_new/webroot/index.php:40
+- /var/www/html/ivaa_new/index.php:16
+
+Request URL: /
+
+
+2020-01-20 02:07:12 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2020-01-20 02:07:12 Error: [Cake\Datasource\Exception\MissingDatasourceConfigException] The datasource configuration "debug_kit" was not found. in /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php on line 202
+Exception Attributes: array (
+  'name' => 'debug_kit',
+)
+Stack Trace:
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:209
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/ToolbarService.php:232
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_new/webroot/index.php:40
+- /var/www/html/ivaa_new/index.php:16
+
+Request URL: /
+
+
+2020-01-20 02:07:12 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2020-01-20 02:07:12 Error: [Cake\Datasource\Exception\MissingDatasourceConfigException] The datasource configuration "debug_kit" was not found. in /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php on line 202
+Exception Attributes: array (
+  'name' => 'debug_kit',
+)
+Stack Trace:
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:209
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/ToolbarService.php:232
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_new/webroot/index.php:40
+- /var/www/html/ivaa_new/index.php:16
+
+Request URL: /
+
+
+2020-01-20 02:07:12 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2020-01-20 02:07:12 Error: [Cake\Datasource\Exception\MissingDatasourceConfigException] The datasource configuration "debug_kit" was not found. in /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php on line 202
+Exception Attributes: array (
+  'name' => 'debug_kit',
+)
+Stack Trace:
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:209
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/ToolbarService.php:232
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_new/webroot/index.php:40
+- /var/www/html/ivaa_new/index.php:16
+
+Request URL: /
+
+
+2020-01-20 02:07:12 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2020-01-20 02:07:12 Error: [Cake\Datasource\Exception\MissingDatasourceConfigException] The datasource configuration "debug_kit" was not found. in /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php on line 202
+Exception Attributes: array (
+  'name' => 'debug_kit',
+)
+Stack Trace:
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:209
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/ToolbarService.php:232
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_new/webroot/index.php:40
+- /var/www/html/ivaa_new/index.php:16
+
+Request URL: /
+
+
+2020-01-20 02:07:12 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2020-01-20 02:07:12 Error: [Cake\Datasource\Exception\MissingDatasourceConfigException] The datasource configuration "debug_kit" was not found. in /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php on line 202
+Exception Attributes: array (
+  'name' => 'debug_kit',
+)
+Stack Trace:
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:209
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/ToolbarService.php:232
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_new/webroot/index.php:40
+- /var/www/html/ivaa_new/index.php:16
+
+Request URL: /
+
+
+2020-01-20 02:07:13 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2020-01-20 02:07:13 Error: [Cake\Datasource\Exception\MissingDatasourceConfigException] The datasource configuration "debug_kit" was not found. in /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php on line 202
+Exception Attributes: array (
+  'name' => 'debug_kit',
+)
+Stack Trace:
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:209
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/ToolbarService.php:232
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_new/webroot/index.php:40
+- /var/www/html/ivaa_new/index.php:16
+
+Request URL: /
+
+
+2020-01-20 02:07:53 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2020-01-20 02:07:53 Error: [Cake\Datasource\Exception\MissingDatasourceConfigException] The datasource configuration "debug_kit" was not found. in /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php on line 202
+Exception Attributes: array (
+  'name' => 'debug_kit',
+)
+Stack Trace:
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:209
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/ToolbarService.php:232
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_new/webroot/index.php:40
+- /var/www/html/ivaa_new/index.php:16
+
+Request URL: /
+
+
+2020-01-20 02:24:57 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2020-01-20 02:24:58 Error: [Cake\Datasource\Exception\MissingDatasourceConfigException] The datasource configuration "debug_kit" was not found. in /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php on line 202
+Exception Attributes: array (
+  'name' => 'debug_kit',
+)
+Stack Trace:
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:209
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/ToolbarService.php:232
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_new/webroot/index.php:40
+- /var/www/html/ivaa_new/index.php:16
+
+Request URL: /
+
+
+2020-01-20 02:24:59 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2020-01-20 02:24:59 Error: [Cake\Datasource\Exception\MissingDatasourceConfigException] The datasource configuration "debug_kit" was not found. in /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php on line 202
+Exception Attributes: array (
+  'name' => 'debug_kit',
+)
+Stack Trace:
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:209
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/ToolbarService.php:232
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_new/webroot/index.php:40
+- /var/www/html/ivaa_new/index.php:16
+
+Request URL: /
+
+
+2020-01-20 02:33:54 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2020-01-20 02:33:54 Error: [Cake\Datasource\Exception\MissingDatasourceConfigException] The datasource configuration "debug_kit" was not found. in /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php on line 202
+Exception Attributes: array (
+  'name' => 'debug_kit',
+)
+Stack Trace:
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:209
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/ToolbarService.php:232
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_new/webroot/index.php:40
+- /var/www/html/ivaa_new/index.php:16
+
+Request URL: /
+
+
+2020-01-20 02:33:56 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2020-01-20 02:33:56 Error: [Cake\Datasource\Exception\MissingDatasourceConfigException] The datasource configuration "debug_kit" was not found. in /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php on line 202
+Exception Attributes: array (
+  'name' => 'debug_kit',
+)
+Stack Trace:
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:209
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/ToolbarService.php:232
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_new/webroot/index.php:40
+- /var/www/html/ivaa_new/index.php:16
+
+Request URL: /
+
+
+2020-01-20 02:33:56 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2020-01-20 02:33:56 Error: [Cake\Datasource\Exception\MissingDatasourceConfigException] The datasource configuration "debug_kit" was not found. in /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php on line 202
+Exception Attributes: array (
+  'name' => 'debug_kit',
+)
+Stack Trace:
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:209
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/ToolbarService.php:232
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_new/webroot/index.php:40
+- /var/www/html/ivaa_new/index.php:16
+
+Request URL: /
+
+
+2020-01-20 02:33:56 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2020-01-20 02:33:56 Error: [Cake\Datasource\Exception\MissingDatasourceConfigException] The datasource configuration "debug_kit" was not found. in /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php on line 202
+Exception Attributes: array (
+  'name' => 'debug_kit',
+)
+Stack Trace:
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:209
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/ToolbarService.php:232
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_new/webroot/index.php:40
+- /var/www/html/ivaa_new/index.php:16
+
+Request URL: /
+
+
+2020-01-20 02:33:56 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2020-01-20 02:33:56 Error: [Cake\Datasource\Exception\MissingDatasourceConfigException] The datasource configuration "debug_kit" was not found. in /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php on line 202
+Exception Attributes: array (
+  'name' => 'debug_kit',
+)
+Stack Trace:
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:209
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/ToolbarService.php:232
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_new/webroot/index.php:40
+- /var/www/html/ivaa_new/index.php:16
+
+Request URL: /
+
+
+2020-01-20 02:33:57 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2020-01-20 02:33:57 Error: [Cake\Datasource\Exception\MissingDatasourceConfigException] The datasource configuration "debug_kit" was not found. in /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php on line 202
+Exception Attributes: array (
+  'name' => 'debug_kit',
+)
+Stack Trace:
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:209
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/ToolbarService.php:232
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_new/webroot/index.php:40
+- /var/www/html/ivaa_new/index.php:16
+
+Request URL: /
+
+
+2020-01-23 06:38:13 Error: [Cake\View\Exception\MissingTemplateException] Template file 'Cities/index.php' could not be found.
+
+The following paths were searched:
+
+- /var/www/html/ivaa_new/templates/
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/templates/
+ in Cities/index.php on line 1335
+Exception Attributes: array (
+  'file' => 'Cities/index.php',
+  'paths' => 
+  array (
+    0 => '/var/www/html/ivaa_new/templates/',
+    1 => '/var/www/html/ivaa_new/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/View/View.php:747
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Controller/Controller.php:691
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Controller/Controller.php:533
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_new/webroot/index.php:40
+
+Request URL: /cities
+Client IP: 127.0.0.1
+
+
+2020-01-23 06:41:40 Error: [Cake\Http\Exception\MissingControllerException] Controller class Artist could not be found. in /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Artist',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_new/webroot/index.php:40
+
+Request URL: /artist
+Client IP: 127.0.0.1
+
+
+2020-01-23 06:43:29 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'updated' doesn't have a default value in /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 40
+Stack Trace:
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php:40
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:178
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:58
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Database/Connection.php:333
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Database/Connection.php:336
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Database/Query.php:245
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/ORM/Table.php:2018
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/ORM/Table.php:1910
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/ORM/Table.php:1811
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/ORM/Table.php:1511
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Database/Connection.php:691
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/ORM/Table.php:1512
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/ORM/Table.php:1812
+- /var/www/html/ivaa_new/src/Controller/ArtistsController.php:56
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_new/webroot/index.php:40
+
+Request URL: /artists/add
+Referer URL: http://localhost:8765/artists/add
+Client IP: 127.0.0.1
+
+
+2020-01-23 06:44:57 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'updated' doesn't have a default value in /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 40
+Stack Trace:
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php:40
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:178
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:58
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Database/Connection.php:333
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Database/Connection.php:336
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Database/Query.php:245
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/ORM/Table.php:2018
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/ORM/Table.php:1910
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/ORM/Table.php:1811
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/ORM/Table.php:1511
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Database/Connection.php:691
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/ORM/Table.php:1512
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/ORM/Table.php:1812
+- /var/www/html/ivaa_new/src/Controller/ArtistsController.php:56
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_new/webroot/index.php:40
+
+Request URL: /artists/add
+Referer URL: http://localhost:8765/artists/add
+Client IP: 127.0.0.1
+
+
+2020-01-28 08:10:05 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/ivaa_new/tmp/cache/models/myapp_cake_model_debug_kit_requests): failed to open stream: Permission denied in [/var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 372]
+Request URL: /
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 372
+Cake\Cache\Engine\FileEngine::get() - CORE/src/Cache/Engine/FileEngine.php, line 164
+DebugKit\Cache\Engine\DebugEngine::get() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 150
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 78
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 500
+Cake\ORM\Table::getPrimaryKey() - CORE/src/ORM/Table.php, line 640
+Cake\ORM\Marshaller::one() - CORE/src/ORM/Marshaller.php, line 173
+Cake\ORM\Table::newEntity() - CORE/src/ORM/Table.php, line 2667
+DebugKit\ToolbarService::saveData() - ROOT/vendor/cakephp/debug_kit/src/ToolbarService.php, line 235
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 66
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+
+
+2020-01-28 08:10:05 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/ivaa_new/tmp/cache/models/myapp_cake_model_debug_kit_requests) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 372]
+Request URL: /
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 372
+Cake\Cache\Engine\FileEngine::set() - CORE/src/Cache/Engine/FileEngine.php, line 122
+DebugKit\Cache\Engine\DebugEngine::set() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 124
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 85
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 500
+Cake\ORM\Table::getPrimaryKey() - CORE/src/ORM/Table.php, line 640
+Cake\ORM\Marshaller::one() - CORE/src/ORM/Marshaller.php, line 173
+Cake\ORM\Table::newEntity() - CORE/src/ORM/Table.php, line 2667
+DebugKit\ToolbarService::saveData() - ROOT/vendor/cakephp/debug_kit/src/ToolbarService.php, line 235
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 66
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+
+
+2020-01-28 08:10:05 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/ivaa_new/tmp/cache/models/myapp_cake_model_debug_kit_panels) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 372]
+Request URL: /
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 372
+Cake\Cache\Engine\FileEngine::get() - CORE/src/Cache/Engine/FileEngine.php, line 164
+DebugKit\Cache\Engine\DebugEngine::get() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 150
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 78
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 500
+Cake\ORM\Table::getPrimaryKey() - CORE/src/ORM/Table.php, line 640
+Cake\ORM\Marshaller::one() - CORE/src/ORM/Marshaller.php, line 173
+Cake\ORM\Table::newEntity() - CORE/src/ORM/Table.php, line 2667
+Cake\ORM\Association::__call() - CORE/src/ORM/Association.php, line 1173
+DebugKit\ToolbarService::saveData() - ROOT/vendor/cakephp/debug_kit/src/ToolbarService.php, line 252
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 66
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+
+
+2020-01-28 08:10:05 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/ivaa_new/tmp/cache/models/myapp_cake_model_debug_kit_panels) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 372]
+Request URL: /
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 372
+Cake\Cache\Engine\FileEngine::set() - CORE/src/Cache/Engine/FileEngine.php, line 122
+DebugKit\Cache\Engine\DebugEngine::set() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 124
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 85
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 500
+Cake\ORM\Table::getPrimaryKey() - CORE/src/ORM/Table.php, line 640
+Cake\ORM\Marshaller::one() - CORE/src/ORM/Marshaller.php, line 173
+Cake\ORM\Table::newEntity() - CORE/src/ORM/Table.php, line 2667
+Cake\ORM\Association::__call() - CORE/src/ORM/Association.php, line 1173
+DebugKit\ToolbarService::saveData() - ROOT/vendor/cakephp/debug_kit/src/ToolbarService.php, line 252
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 66
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+
+
+2020-01-28 08:10:05 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/ivaa_new/tmp/cache/persistent/myapp_cake_core_translations.cake.en_US) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 372]
+Request URL: /
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 372
+Cake\Cache\Engine\FileEngine::get() - CORE/src/Cache/Engine/FileEngine.php, line 164
+DebugKit\Cache\Engine\DebugEngine::get() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 150
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 153
+Cake\I18n\I18n::getTranslator() - CORE/src/I18n/I18n.php, line 156
+__d - CORE/src/I18n/functions.php, line 91
+Cake\I18n\Number::toReadableSize() - CORE/src/I18n/Number.php, line 110
+DebugKit\Panel\TimerPanel::summary() - ROOT/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php, line 126
+DebugKit\ToolbarService::saveData() - ROOT/vendor/cakephp/debug_kit/src/ToolbarService.php, line 251
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 66
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+
+
+2020-01-28 08:10:05 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/ivaa_new/tmp/cache/persistent/myapp_cake_core_translations.cake.en_US) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 372]
+Request URL: /
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 372
+Cake\Cache\Engine\FileEngine::set() - CORE/src/Cache/Engine/FileEngine.php, line 122
+DebugKit\Cache\Engine\DebugEngine::set() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 124
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 156
+Cake\I18n\I18n::getTranslator() - CORE/src/I18n/I18n.php, line 156
+__d - CORE/src/I18n/functions.php, line 91
+Cake\I18n\Number::toReadableSize() - CORE/src/I18n/Number.php, line 110
+DebugKit\Panel\TimerPanel::summary() - ROOT/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php, line 126
+DebugKit\ToolbarService::saveData() - ROOT/vendor/cakephp/debug_kit/src/ToolbarService.php, line 251
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 66
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+
+
+2020-01-28 08:10:06 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Error/Debugger.php line=831 in [/var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 72]
+Request URL: /
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 72
+Cake\Error\ErrorHandler::_sendResponse() - CORE/src/Error/ErrorHandler.php, line 212
+Cake\Error\ErrorHandler::_displayException() - CORE/src/Error/ErrorHandler.php, line 139
+Cake\Error\BaseErrorHandler::handleException() - CORE/src/Error/BaseErrorHandler.php, line 221
+[main] - [internal], line ??
+
+
+
+2020-01-28 08:10:06 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 169]
+Request URL: /
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 169
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Error\ErrorHandler::_sendResponse() - CORE/src/Error/ErrorHandler.php, line 212
+Cake\Error\ErrorHandler::_displayException() - CORE/src/Error/ErrorHandler.php, line 139
+Cake\Error\BaseErrorHandler::handleException() - CORE/src/Error/BaseErrorHandler.php, line 221
+[main] - [internal], line ??
+
+
+
+2020-01-28 08:10:06 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 198]
+Request URL: /
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 198
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 76
+Cake\Error\ErrorHandler::_sendResponse() - CORE/src/Error/ErrorHandler.php, line 212
+Cake\Error\ErrorHandler::_displayException() - CORE/src/Error/ErrorHandler.php, line 139
+Cake\Error\BaseErrorHandler::handleException() - CORE/src/Error/BaseErrorHandler.php, line 221
+[main] - [internal], line ??
+
+
+
+2020-01-28 08:10:06 Error: [PDOException] SQLSTATE[HY000]: General error: 8 attempt to write a readonly database in /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php on line 178
+Stack Trace:
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:178
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Database/Statement/BufferedStatement.php:150
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Database/Statement/SqliteStatement.php:42
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Database/Connection.php:333
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Database/Connection.php:336
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Database/Query.php:245
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/ORM/Table.php:2018
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/ORM/Table.php:1910
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/ORM/Table.php:1811
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/ORM/Table.php:1511
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Database/Connection.php:691
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/ORM/Table.php:1512
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/ORM/Table.php:1812
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/ToolbarService.php:256
+- /var/www/html/ivaa_new/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_new/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_new/webroot/index.php:40
+- /var/www/html/ivaa_new/index.php:16
+
+Request URL: /
+
+
