@@ -29,7 +29,7 @@
                     <th><?= $this->Paginator->sort('phone') ?></th>
                     <th><?= $this->Paginator->sort('website') ?></th>
                     <th><?= $this->Paginator->sort('created') ?></th>
-                    <th><?= $this->Paginator->sort('updated') ?></th>
+                    <th><?= $this->Paginator->sort('modified') ?></th>
                     <th><?= $this->Paginator->sort('is_registered') ?></th>
                     <th><?= $this->Paginator->sort('slug') ?></th>
                     <th><?= $this->Paginator->sort('obit') ?></th>
@@ -50,14 +50,14 @@
                     <td><?= h($artist->birth_year) ?></td>
                     <td><?= h($artist->not_alive) ?></td>
                     <td><?= h($artist->living_address) ?></td>
-                    <td><?= $this->Number->format($artist->living_city) ?></td>
-                    <td><?= $this->Number->format($artist->living_country) ?></td>
-                    <td><?= $this->Number->format($artist->domicile) ?></td>
+                    <td><?= $artist->has('city') ? $this->Html->link($artist->city->name, ['controller' => 'Cities', 'action' => 'view', $artist->city->id]) : '' ?></td>
+                    <td><?= $artist->has('country') ? $this->Html->link($artist->country->name, ['controller' => 'Countries', 'action' => 'view', $artist->country->id]) : '' ?></td>
+                    <td><?= $artist->has('domicile') ? $this->Html->link($artist->domicile->name, ['controller' => 'Domiciles', 'action' => 'view', $artist->domicile->id]) : '' ?></td>
                     <td><?= h($artist->email) ?></td>
                     <td><?= h($artist->phone) ?></td>
                     <td><?= h($artist->website) ?></td>
                     <td><?= h($artist->created) ?></td>
-                    <td><?= h($artist->updated) ?></td>
+                    <td><?= h($artist->modified) ?></td>
                     <td><?= $this->Number->format($artist->is_registered) ?></td>
                     <td><?= h($artist->slug) ?></td>
                     <td><?= h($artist->obit) ?></td>

@@ -27,9 +27,9 @@
                     echo $this->Form->control('birth_year');
                     echo $this->Form->control('not_alive');
                     echo $this->Form->control('living_address');
-                    echo $this->Form->control('living_city');
-                    echo $this->Form->control('living_country');
-                    echo $this->Form->control('domicile');
+                    echo $this->Form->control('living_city', ['options' => $cities]);
+                    echo $this->Form->control('living_country', ['options' => $countries]);
+                    echo $this->Form->control('domicile', ['options' => $domiciles]);
                     echo $this->Form->control('email');
                     echo $this->Form->control('phone');
                     echo $this->Form->control('website');
@@ -38,6 +38,8 @@
                     echo $this->Form->control('description');
                     echo $this->Form->control('obit');
                     echo $this->Form->control('description_en');
+                    echo $this->Form->control('creative_industries._ids', ['options' => $creativeIndustries]);
+                    echo $this->Form->control('collectives._ids', ['options' => $collectives]);
                 ?>
             </fieldset>
             <?= $this->Form->button(__('Submit')) ?>

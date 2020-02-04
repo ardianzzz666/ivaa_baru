@@ -1,0 +1,18 @@
+TABEL IVAA FIX CRM
+===================
+
+
+04 February 2020
+=================
+• provinces (provinces)
+• artworks_categories (artworks_categories)
+• country (countries)
+• cities (cities)
+• domiciles (domiciles)
+• creative_industries (cretive-industries)
+• art_venues (art-vernues)
+• media (media)
+• artworks (artworks)
+• artworks_files (artwork-files)
+• event_organizers (event-organizers)
+• events_category (events-categories)

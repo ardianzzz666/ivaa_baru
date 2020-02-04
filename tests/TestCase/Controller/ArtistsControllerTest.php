@@ -24,6 +24,14 @@ class ArtistsControllerTest extends TestCase
     protected $fixtures = [
         'app.Artists',
         'app.Users',
+        'app.Countries',
+        'app.Cities',
+        'app.Domiciles',
+        'app.CreativeIndustries',
+        'app.Khazanahs',
+        'app.Collectives',
+        'app.ArtistsIndustries',
+        'app.ArtistsCollectives',
     ];
 
     /**

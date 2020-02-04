@@ -20,7 +20,7 @@ class ArtistsController extends AppController
     public function index()
     {
         $this->paginate = [
-            'contain' => ['Users'],
+            'contain' => ['Users', 'Countries', 'Cities', 'Domiciles'],
         ];
         $artists = $this->paginate($this->Artists);
 
@@ -37,7 +37,7 @@ class ArtistsController extends AppController
     public function view($id = null)
     {
         $artist = $this->Artists->get($id, [
-            'contain' => ['Users'],
+            'contain' => ['Users', 'Countries', 'Cities', 'Domiciles', 'CreativeIndustries', 'Collectives', 'Khazanahs'],
         ]);
 
         $this->set('artist', $artist);
@@ -61,7 +61,12 @@ class ArtistsController extends AppController
             $this->Flash->error(__('The artist could not be saved. Please, try again.'));
         }
         $users = $this->Artists->Users->find('list', ['limit' => 200]);
-        $this->set(compact('artist', 'users'));
+        $countries = $this->Artists->Countries->find('list', ['limit' => 200]);
+        $cities = $this->Artists->Cities->find('list', ['limit' => 200]);
+        $domiciles = $this->Artists->Domiciles->find('list', ['limit' => 200]);
+        $creativeIndustries = $this->Artists->CreativeIndustries->find('list', ['limit' => 200]);
+        $collectives = $this->Artists->Collectives->find('list', ['limit' => 200]);
+        $this->set(compact('artist', 'users', 'countries', 'cities', 'domiciles', 'creativeIndustries', 'collectives'));
     }
 
     /**
@@ -74,7 +79,7 @@ class ArtistsController extends AppController
     public function edit($id = null)
     {
         $artist = $this->Artists->get($id, [
-            'contain' => [],
+            'contain' => ['CreativeIndustries', 'Collectives'],
         ]);
         if ($this->request->is(['patch', 'post', 'put'])) {
             $artist = $this->Artists->patchEntity($artist, $this->request->getData());
@@ -86,7 +91,12 @@ class ArtistsController extends AppController
             $this->Flash->error(__('The artist could not be saved. Please, try again.'));
         }
         $users = $this->Artists->Users->find('list', ['limit' => 200]);
-        $this->set(compact('artist', 'users'));
+        $countries = $this->Artists->Countries->find('list', ['limit' => 200]);
+        $cities = $this->Artists->Cities->find('list', ['limit' => 200]);
+        $domiciles = $this->Artists->Domiciles->find('list', ['limit' => 200]);
+        $creativeIndustries = $this->Artists->CreativeIndustries->find('list', ['limit' => 200]);
+        $collectives = $this->Artists->Collectives->find('list', ['limit' => 200]);
+        $this->set(compact('artist', 'users', 'countries', 'cities', 'domiciles', 'creativeIndustries', 'collectives'));
     }
 
     /**

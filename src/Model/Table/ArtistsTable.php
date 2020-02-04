@@ -46,6 +46,46 @@ class ArtistsTable extends Table
             'foreignKey' => 'user_id',
             'joinType' => 'INNER',
         ]);
+
+        $this->belongsTo('Countries', [
+            'foreignKey' => 'birth_country',
+            'joinType' => 'INNER',
+        ]);
+
+        $this->belongsTo('Cities', [
+            'foreignKey' => 'birth_city',
+            'joinType' => 'INNER',
+        ]);
+
+        $this->belongsTo('Cities', [
+            'foreignKey' => 'living_city',
+            'joinType' => 'INNER',
+        ]);
+
+        $this->belongsTo('Countries', [
+            'foreignKey' => 'living_country',
+            'joinType' => 'INNER',
+        ]);
+        
+        $this->belongsTo('Domiciles', [
+            'foreignKey' => 'domicile',
+            'joinType' => 'INNER',
+        ]);
+
+        $this->belongsToMany('CreativeIndustries', [
+            'foreignKey' => 'artist_id',
+            'targetForeignKey' => 'creative_industry_id',
+            'joinTable' => 'artists_industries',
+        ]);
+
+        $this->hasMany('Khazanahs', [
+            'foreignKey' => 'artist_id',
+        ]);
+        $this->belongsToMany('Collectives', [
+            'foreignKey' => 'artist_id',
+            'targetForeignKey' => 'collective_id',
+            'joinTable' => 'artists_collectives',
+        ]);
     }
 
     /**

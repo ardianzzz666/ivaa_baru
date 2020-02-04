@@ -26,7 +26,7 @@ use Cake\ORM\Entity;
  * @property string $phone
  * @property string $website
  * @property \Cake\I18n\FrozenTime $created
- * @property \Cake\I18n\FrozenTime $updated
+ * @property \Cake\I18n\FrozenTime $modified
  * @property int $is_registered
  * @property string $slug
  * @property string $description
@@ -64,7 +64,7 @@ class Artist extends Entity
         'phone' => true,
         'website' => true,
         'created' => true,
-        'updated' => true,
+        'modified' => true,
         'is_registered' => true,
         'slug' => true,
         'description' => true,

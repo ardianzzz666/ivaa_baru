@@ -43,6 +43,18 @@
                     <td><?= h($artist->living_address) ?></td>
                 </tr>
                 <tr>
+                    <th><?= __('City') ?></th>
+                    <td><?= $artist->has('city') ? $this->Html->link($artist->city->name, ['controller' => 'Cities', 'action' => 'view', $artist->city->id]) : '' ?></td>
+                </tr>
+                <tr>
+                    <th><?= __('Country') ?></th>
+                    <td><?= $artist->has('country') ? $this->Html->link($artist->country->name, ['controller' => 'Countries', 'action' => 'view', $artist->country->id]) : '' ?></td>
+                </tr>
+                <tr>
+                    <th><?= __('Domicile') ?></th>
+                    <td><?= $artist->has('domicile') ? $this->Html->link($artist->domicile->name, ['controller' => 'Domiciles', 'action' => 'view', $artist->domicile->id]) : '' ?></td>
+                </tr>
+                <tr>
                     <th><?= __('Email') ?></th>
                     <td><?= h($artist->email) ?></td>
                 </tr>
@@ -75,18 +87,6 @@
                     <td><?= $this->Number->format($artist->birth_city) ?></td>
                 </tr>
                 <tr>
-                    <th><?= __('Living City') ?></th>
-                    <td><?= $this->Number->format($artist->living_city) ?></td>
-                </tr>
-                <tr>
-                    <th><?= __('Living Country') ?></th>
-                    <td><?= $this->Number->format($artist->living_country) ?></td>
-                </tr>
-                <tr>
-                    <th><?= __('Domicile') ?></th>
-                    <td><?= $this->Number->format($artist->domicile) ?></td>
-                </tr>
-                <tr>
                     <th><?= __('Is Registered') ?></th>
                     <td><?= $this->Number->format($artist->is_registered) ?></td>
                 </tr>
@@ -99,8 +99,8 @@
                     <td><?= h($artist->created) ?></td>
                 </tr>
                 <tr>
-                    <th><?= __('Updated') ?></th>
-                    <td><?= h($artist->updated) ?></td>
+                    <th><?= __('Modified') ?></th>
+                    <td><?= h($artist->modified) ?></td>
                 </tr>
                 <tr>
                     <th><?= __('Not Alive') ?></th>
@@ -118,6 +118,119 @@
                 <blockquote>
                     <?= $this->Text->autoParagraph(h($artist->description_en)); ?>
                 </blockquote>
+            </div>
+            <div class="related">
+                <h4><?= __('Related Creative Industries') ?></h4>
+                <?php if (!empty($artist->creative_industries)) : ?>
+                <div class="table-responsive">
+                    <table>
+                        <tr>
+                            <th><?= __('Id') ?></th>
+                            <th><?= __('Name') ?></th>
+                            <th><?= __('Name En') ?></th>
+                            <th class="actions"><?= __('Actions') ?></th>
+                        </tr>
+                        <?php foreach ($artist->creative_industries as $creativeIndustries) : ?>
+                        <tr>
+                            <td><?= h($creativeIndustries->id) ?></td>
+                            <td><?= h($creativeIndustries->name) ?></td>
+                            <td><?= h($creativeIndustries->name_en) ?></td>
+                            <td class="actions">
+                                <?= $this->Html->link(__('View'), ['controller' => 'CreativeIndustries', 'action' => 'view', $creativeIndustries->id]) ?>
+                                <?= $this->Html->link(__('Edit'), ['controller' => 'CreativeIndustries', 'action' => 'edit', $creativeIndustries->id]) ?>
+                                <?= $this->Form->postLink(__('Delete'), ['controller' => 'CreativeIndustries', 'action' => 'delete', $creativeIndustries->id], ['confirm' => __('Are you sure you want to delete # {0}?', $creativeIndustries->id)]) ?>
+                            </td>
+                        </tr>
+                        <?php endforeach; ?>
+                    </table>
+                </div>
+                <?php endif; ?>
+            </div>
+            <div class="related">
+                <h4><?= __('Related Collectives') ?></h4>
+                <?php if (!empty($artist->collectives)) : ?>
+                <div class="table-responsive">
+                    <table>
+                        <tr>
+                            <th><?= __('Id') ?></th>
+                            <th><?= __('Name') ?></th>
+                            <th><?= __('Domicile Id') ?></th>
+                            <th><?= __('Slug') ?></th>
+                            <th><?= __('Created') ?></th>
+                            <th><?= __('Modified') ?></th>
+                            <th><?= __('Description') ?></th>
+                            <th><?= __('Description En') ?></th>
+                            <th class="actions"><?= __('Actions') ?></th>
+                        </tr>
+                        <?php foreach ($artist->collectives as $collectives) : ?>
+                        <tr>
+                            <td><?= h($collectives->id) ?></td>
+                            <td><?= h($collectives->name) ?></td>
+                            <td><?= h($collectives->domicile_id) ?></td>
+                            <td><?= h($collectives->slug) ?></td>
+                            <td><?= h($collectives->created) ?></td>
+                            <td><?= h($collectives->modified) ?></td>
+                            <td><?= h($collectives->description) ?></td>
+                            <td><?= h($collectives->description_en) ?></td>
+                            <td class="actions">
+                                <?= $this->Html->link(__('View'), ['controller' => 'Collectives', 'action' => 'view', $collectives->id]) ?>
+                                <?= $this->Html->link(__('Edit'), ['controller' => 'Collectives', 'action' => 'edit', $collectives->id]) ?>
+                                <?= $this->Form->postLink(__('Delete'), ['controller' => 'Collectives', 'action' => 'delete', $collectives->id], ['confirm' => __('Are you sure you want to delete # {0}?', $collectives->id)]) ?>
+                            </td>
+                        </tr>
+                        <?php endforeach; ?>
+                    </table>
+                </div>
+                <?php endif; ?>
+            </div>
+            <div class="related">
+                <h4><?= __('Related Khazanahs') ?></h4>
+                <?php if (!empty($artist->khazanahs)) : ?>
+                <div class="table-responsive">
+                    <table>
+                        <tr>
+                            <th><?= __('Id') ?></th>
+                            <th><?= __('Artist Id') ?></th>
+                            <th><?= __('Title') ?></th>
+                            <th><?= __('Subtitle') ?></th>
+                            <th><?= __('Published Date') ?></th>
+                            <th><?= __('Published Month') ?></th>
+                            <th><?= __('Published Year') ?></th>
+                            <th><?= __('Published To Year') ?></th>
+                            <th><?= __('Excerpt En') ?></th>
+                            <th><?= __('Excerpt Ind') ?></th>
+                            <th><?= __('Published Date Unknown') ?></th>
+                            <th><?= __('Status') ?></th>
+                            <th><?= __('Khazanah Category Id') ?></th>
+                            <th><?= __('Sorting') ?></th>
+                            <th class="actions"><?= __('Actions') ?></th>
+                        </tr>
+                        <?php foreach ($artist->khazanahs as $khazanahs) : ?>
+                        <tr>
+                            <td><?= h($khazanahs->id) ?></td>
+                            <td><?= h($khazanahs->artist_id) ?></td>
+                            <td><?= h($khazanahs->title) ?></td>
+                            <td><?= h($khazanahs->subtitle) ?></td>
+                            <td><?= h($khazanahs->published_date) ?></td>
+                            <td><?= h($khazanahs->published_month) ?></td>
+                            <td><?= h($khazanahs->published_year) ?></td>
+                            <td><?= h($khazanahs->published_to_year) ?></td>
+                            <td><?= h($khazanahs->excerpt_en) ?></td>
+                            <td><?= h($khazanahs->excerpt_ind) ?></td>
+                            <td><?= h($khazanahs->published_date_unknown) ?></td>
+                            <td><?= h($khazanahs->status) ?></td>
+                            <td><?= h($khazanahs->khazanah_category_id) ?></td>
+                            <td><?= h($khazanahs->sorting) ?></td>
+                            <td class="actions">
+                                <?= $this->Html->link(__('View'), ['controller' => 'Khazanahs', 'action' => 'view', $khazanahs->id]) ?>
+                                <?= $this->Html->link(__('Edit'), ['controller' => 'Khazanahs', 'action' => 'edit', $khazanahs->id]) ?>
+                                <?= $this->Form->postLink(__('Delete'), ['controller' => 'Khazanahs', 'action' => 'delete', $khazanahs->id], ['confirm' => __('Are you sure you want to delete # {0}?', $khazanahs->id)]) ?>
+                            </td>
+                        </tr>
+                        <?php endforeach; ?>
+                    </table>
+                </div>
+                <?php endif; ?>
             </div>
         </div>
     </div>
