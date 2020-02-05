@@ -33,10 +33,12 @@ class KhazanahsFixture extends TestFixture
         'sorting' => ['type' => 'integer', 'length' => 11, 'unsigned' => false, 'null' => false, 'default' => null, 'comment' => '', 'precision' => null, 'autoIncrement' => null],
         '_indexes' => [
             'khazanah_category_id' => ['type' => 'index', 'columns' => ['khazanah_category_id'], 'length' => []],
+            'artist_id' => ['type' => 'index', 'columns' => ['artist_id'], 'length' => []],
         ],
         '_constraints' => [
             'primary' => ['type' => 'primary', 'columns' => ['id'], 'length' => []],
             'khazanahs_ibfk_1' => ['type' => 'foreign', 'columns' => ['khazanah_category_id'], 'references' => ['khazanah_categories', 'id'], 'update' => 'restrict', 'delete' => 'restrict', 'length' => []],
+            'khazanahs_ibfk_2' => ['type' => 'foreign', 'columns' => ['artist_id'], 'references' => ['artists', 'id'], 'update' => 'restrict', 'delete' => 'restrict', 'length' => []],
         ],
         '_options' => [
             'engine' => 'InnoDB',

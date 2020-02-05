@@ -1671,3 +1671,440 @@ Request URL: /arworks
 Client IP: 127.0.0.1
 
 
+2020-02-05 10:25:33 Error: [RuntimeException] Undefined property `EventsCategories`. You have not defined the `EventsCategories` association on `App\Model\Table\EventsTable`. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/ORM/Table.php on line 2555
+Stack Trace:
+- /var/www/html/ivaa_baru/src/Controller/EventsController.php:66
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /events/add
+Referer URL: http://localhost:8765/events
+Client IP: 127.0.0.1
+
+
+2020-02-05 10:27:42 Error: [RuntimeException] Undefined property `EventsCategories`. You have not defined the `EventsCategories` association on `App\Model\Table\EventsTable`. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/ORM/Table.php on line 2555
+Stack Trace:
+- /var/www/html/ivaa_baru/src/Controller/EventsController.php:66
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /events/add
+Referer URL: http://localhost:8765/events
+Client IP: 127.0.0.1
+
+
+2020-02-05 10:27:42 Error: [RuntimeException] Undefined property `EventsCategories`. You have not defined the `EventsCategories` association on `App\Model\Table\EventsTable`. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/ORM/Table.php on line 2555
+Stack Trace:
+- /var/www/html/ivaa_baru/src/Controller/EventsController.php:66
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /events/add
+Referer URL: http://localhost:8765/events
+Client IP: 127.0.0.1
+
+
+2020-02-05 10:27:43 Error: [RuntimeException] Undefined property `EventsCategories`. You have not defined the `EventsCategories` association on `App\Model\Table\EventsTable`. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/ORM/Table.php on line 2555
+Stack Trace:
+- /var/www/html/ivaa_baru/src/Controller/EventsController.php:66
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /events/add
+Referer URL: http://localhost:8765/events
+Client IP: 127.0.0.1
+
+
+2020-02-05 10:27:43 Error: [RuntimeException] Undefined property `EventsCategories`. You have not defined the `EventsCategories` association on `App\Model\Table\EventsTable`. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/ORM/Table.php on line 2555
+Stack Trace:
+- /var/www/html/ivaa_baru/src/Controller/EventsController.php:66
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /events/add
+Referer URL: http://localhost:8765/events
+Client IP: 127.0.0.1
+
+
+2020-02-05 10:27:44 Error: [RuntimeException] Undefined property `EventsCategories`. You have not defined the `EventsCategories` association on `App\Model\Table\EventsTable`. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/ORM/Table.php on line 2555
+Stack Trace:
+- /var/www/html/ivaa_baru/src/Controller/EventsController.php:66
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /events/add
+Referer URL: http://localhost:8765/events
+Client IP: 127.0.0.1
+
+
+2020-02-05 10:27:44 Error: [RuntimeException] Undefined property `EventsCategories`. You have not defined the `EventsCategories` association on `App\Model\Table\EventsTable`. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/ORM/Table.php on line 2555
+Stack Trace:
+- /var/www/html/ivaa_baru/src/Controller/EventsController.php:66
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /events/add
+Referer URL: http://localhost:8765/events
+Client IP: 127.0.0.1
+
+
+2020-02-05 10:27:45 Error: [RuntimeException] Undefined property `EventsCategories`. You have not defined the `EventsCategories` association on `App\Model\Table\EventsTable`. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/ORM/Table.php on line 2555
+Stack Trace:
+- /var/www/html/ivaa_baru/src/Controller/EventsController.php:66
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /events/add
+Referer URL: http://localhost:8765/events
+Client IP: 127.0.0.1
+
+
+2020-02-05 10:27:45 Error: [RuntimeException] Undefined property `EventsCategories`. You have not defined the `EventsCategories` association on `App\Model\Table\EventsTable`. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/ORM/Table.php on line 2555
+Stack Trace:
+- /var/www/html/ivaa_baru/src/Controller/EventsController.php:66
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /events/add
+Referer URL: http://localhost:8765/events
+Client IP: 127.0.0.1
+
+
+2020-02-05 10:27:45 Error: [RuntimeException] Undefined property `EventsCategories`. You have not defined the `EventsCategories` association on `App\Model\Table\EventsTable`. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/ORM/Table.php on line 2555
+Stack Trace:
+- /var/www/html/ivaa_baru/src/Controller/EventsController.php:66
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /events/add
+Referer URL: http://localhost:8765/events
+Client IP: 127.0.0.1
+
+
+2020-02-05 10:27:45 Error: [RuntimeException] Undefined property `EventsCategories`. You have not defined the `EventsCategories` association on `App\Model\Table\EventsTable`. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/ORM/Table.php on line 2555
+Stack Trace:
+- /var/www/html/ivaa_baru/src/Controller/EventsController.php:66
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /events/add
+Referer URL: http://localhost:8765/events
+Client IP: 127.0.0.1
+
+
+2020-02-05 10:27:45 Error: [RuntimeException] Undefined property `EventsCategories`. You have not defined the `EventsCategories` association on `App\Model\Table\EventsTable`. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/ORM/Table.php on line 2555
+Stack Trace:
+- /var/www/html/ivaa_baru/src/Controller/EventsController.php:66
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /events/add
+Referer URL: http://localhost:8765/events
+Client IP: 127.0.0.1
+
+
+2020-02-05 10:27:46 Error: [RuntimeException] Undefined property `EventsCategories`. You have not defined the `EventsCategories` association on `App\Model\Table\EventsTable`. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/ORM/Table.php on line 2555
+Stack Trace:
+- /var/www/html/ivaa_baru/src/Controller/EventsController.php:66
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /events/add
+Referer URL: http://localhost:8765/events
+Client IP: 127.0.0.1
+
+
+2020-02-05 10:30:58 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'image_count' doesn't have a default value in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 40
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php:40
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:178
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Database/Connection.php:333
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Database/Connection.php:336
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Database/Query.php:245
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/ORM/Table.php:2018
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/ORM/Table.php:1910
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/ORM/Table.php:1811
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/ORM/Table.php:1511
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Database/Connection.php:691
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/ORM/Table.php:1512
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/ORM/Table.php:1812
+- /var/www/html/ivaa_baru/src/Controller/EventsController.php:56
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /events/add
+Referer URL: http://localhost:8765/events/add
+Client IP: 127.0.0.1
+
+
+2020-02-05 11:06:04 Error: [Cake\Http\Exception\MissingControllerException] Controller class Collectives could not be found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Collectives',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /collectives
+Client IP: 127.0.0.1
+
+

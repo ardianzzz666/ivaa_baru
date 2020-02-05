@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 namespace App\Controller;
@@ -60,7 +61,7 @@ class KhazanahsController extends AppController
             }
             $this->Flash->error(__('The khazanah could not be saved. Please, try again.'));
         }
-        $artists = $this->Khazanahs->Artists->find('list', ['limit' => 200]);
+        $artists = $this->Khazanahs->Artists->find('list', ['keyField' => 'id','valueField' => 'fullname'], ['limit' => 200]);
         $khazanahCategories = $this->Khazanahs->KhazanahCategories->find('list', ['limit' => 200]);
         $artworks = $this->Khazanahs->Artworks->find('list', ['limit' => 200]);
         $events = $this->Khazanahs->Events->find('list', ['limit' => 200]);
@@ -88,7 +89,7 @@ class KhazanahsController extends AppController
             }
             $this->Flash->error(__('The khazanah could not be saved. Please, try again.'));
         }
-        $artists = $this->Khazanahs->Artists->find('list', ['limit' => 200]);
+        $artists = $this->Khazanahs->Artists->find('list', ['keyField' => 'id','valueField' => 'fullname'], ['limit' => 200]);
         $khazanahCategories = $this->Khazanahs->KhazanahCategories->find('list', ['limit' => 200]);
         $artworks = $this->Khazanahs->Artworks->find('list', ['limit' => 200]);
         $events = $this->Khazanahs->Events->find('list', ['limit' => 200]);

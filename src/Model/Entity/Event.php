@@ -11,19 +11,17 @@ use Cake\ORM\Entity;
  * @property int $id
  * @property string $title
  * @property string $subtitle
- * @property string $event_time
  * @property string $description_en
  * @property string $description_ind
- * @property \Cake\I18n\FrozenTime $published_on
  * @property int $event_orgnaizer_id
  * @property int $image_count
  *
  * @property \App\Model\Entity\EventOrganizer $event_organizer
- * @property \App\Model\Entity\EventsCat[] $events_cats
  * @property \App\Model\Entity\EventsDetail[] $events_details
  * @property \App\Model\Entity\EventsParticipant[] $events_participants
  * @property \App\Model\Entity\Artwork[] $artworks
  * @property \App\Model\Entity\Khazanah[] $khazanahs
+ * @property \App\Model\Entity\EventsCategory[] $events_categories
  */
 class Event extends Entity
 {
@@ -39,17 +37,15 @@ class Event extends Entity
     protected $_accessible = [
         'title' => true,
         'subtitle' => true,
-        'event_time' => true,
         'description_en' => true,
         'description_ind' => true,
-        'published_on' => true,
         'event_orgnaizer_id' => true,
         'image_count' => true,
         'event_organizer' => true,
-        'events_cats' => true,
         'events_details' => true,
         'events_participants' => true,
         'artworks' => true,
         'khazanahs' => true,
+        'events_categories' => true,
     ];
 }

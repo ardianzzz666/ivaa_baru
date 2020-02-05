@@ -12,7 +12,6 @@ use Cake\Validation\Validator;
  * Events Model
  *
  * @property \App\Model\Table\EventOrganizersTable&\Cake\ORM\Association\BelongsTo $EventOrganizers
- * @property \App\Model\Table\EventsCatsTable&\Cake\ORM\Association\HasMany $EventsCats
  * @property \App\Model\Table\EventsDetailsTable&\Cake\ORM\Association\HasMany $EventsDetails
  * @property \App\Model\Table\EventsParticipantsTable&\Cake\ORM\Association\HasMany $EventsParticipants
  * @property \App\Model\Table\ArtworksTable&\Cake\ORM\Association\BelongsToMany $Artworks
@@ -47,6 +46,9 @@ class EventsTable extends Table
             'foreignKey' => 'event_orgnaizer_id',
             'joinType' => 'INNER',
         ]);
+        $this->hasMany('EventsCats', [
+            'foreignKey' => 'event_id',
+        ]);
         $this->hasMany('EventsDetails', [
             'foreignKey' => 'event_id',
         ]);
@@ -63,7 +65,6 @@ class EventsTable extends Table
             'targetForeignKey' => 'khazanah_id',
             'joinTable' => 'events_khazanahs',
         ]);
-
         $this->belongsToMany('EventsCategories', [
             'foreignKey' => 'event_id',
             'targetForeignKey' => 'event_category_id',
@@ -96,12 +97,6 @@ class EventsTable extends Table
             ->notEmptyString('subtitle');
 
         $validator
-            ->scalar('event_time')
-            ->maxLength('event_time', 100)
-            ->requirePresence('event_time', 'create')
-            ->notEmptyString('event_time');
-
-        $validator
             ->scalar('description_en')
             ->requirePresence('description_en', 'create')
             ->notEmptyString('description_en');
@@ -111,15 +106,10 @@ class EventsTable extends Table
             ->requirePresence('description_ind', 'create')
             ->notEmptyString('description_ind');
 
-        $validator
-            ->dateTime('published_on')
-            ->requirePresence('published_on', 'create')
-            ->notEmptyDateTime('published_on');
-
-        $validator
-            ->integer('image_count')
-            ->requirePresence('image_count', 'create')
-            ->notEmptyFile('image_count');
+        // $validator
+        //     ->integer('image_count')
+        //     ->requirePresence('image_count', 'create')
+        //     ->notEmptyFile('image_count');
 
         return $validator;
     }

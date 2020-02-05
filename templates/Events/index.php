@@ -14,10 +14,7 @@
                     <th><?= $this->Paginator->sort('id') ?></th>
                     <th><?= $this->Paginator->sort('title') ?></th>
                     <th><?= $this->Paginator->sort('subtitle') ?></th>
-                    <th><?= $this->Paginator->sort('event_time') ?></th>
-                    <th><?= $this->Paginator->sort('published_on') ?></th>
                     <th><?= $this->Paginator->sort('event_orgnaizer_id') ?></th>
-                    <th><?= $this->Paginator->sort('image_count') ?></th>
                     <th class="actions"><?= __('Actions') ?></th>
                 </tr>
             </thead>
@@ -27,10 +24,7 @@
                     <td><?= $this->Number->format($event->id) ?></td>
                     <td><?= h($event->title) ?></td>
                     <td><?= h($event->subtitle) ?></td>
-                    <td><?= h($event->event_time) ?></td>
-                    <td><?= h($event->published_on) ?></td>
                     <td><?= $event->has('event_organizer') ? $this->Html->link($event->event_organizer->name, ['controller' => 'EventOrganizers', 'action' => 'view', $event->event_organizer->id]) : '' ?></td>
-                    <td><?= $this->Number->format($event->image_count) ?></td>
                     <td class="actions">
                         <?= $this->Html->link(__('View'), ['action' => 'view', $event->id]) ?>
                         <?= $this->Html->link(__('Edit'), ['action' => 'edit', $event->id]) ?>

@@ -16,3 +16,12 @@ TABEL IVAA FIX CRM
 • artworks_files (artwork-files)
 • event_organizers (event-organizers)
 • events_category (events-categories)
+
+05 February 2020
+==================
+• events (events)
+• events_details (events-details)
+• khazanah_categories (khazanah-categories)
+• khazanahs (khazanahs)
+• collectives (collectives)
+• users (users)

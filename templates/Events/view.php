@@ -27,10 +27,6 @@
                     <td><?= h($event->subtitle) ?></td>
                 </tr>
                 <tr>
-                    <th><?= __('Event Time') ?></th>
-                    <td><?= h($event->event_time) ?></td>
-                </tr>
-                <tr>
                     <th><?= __('Event Organizer') ?></th>
                     <td><?= $event->has('event_organizer') ? $this->Html->link($event->event_organizer->name, ['controller' => 'EventOrganizers', 'action' => 'view', $event->event_organizer->id]) : '' ?></td>
                 </tr>
@@ -41,10 +37,6 @@
                 <tr>
                     <th><?= __('Image Count') ?></th>
                     <td><?= $this->Number->format($event->image_count) ?></td>
-                </tr>
-                <tr>
-                    <th><?= __('Published On') ?></th>
-                    <td><?= h($event->published_on) ?></td>
                 </tr>
             </table>
             <div class="text">

@@ -135,10 +135,8 @@
                             <th><?= __('Id') ?></th>
                             <th><?= __('Title') ?></th>
                             <th><?= __('Subtitle') ?></th>
-                            <th><?= __('Event Time') ?></th>
                             <th><?= __('Description En') ?></th>
                             <th><?= __('Description Ind') ?></th>
-                            <th><?= __('Published On') ?></th>
                             <th><?= __('Event Orgnaizer Id') ?></th>
                             <th><?= __('Image Count') ?></th>
                             <th class="actions"><?= __('Actions') ?></th>
@@ -148,10 +146,8 @@
                             <td><?= h($events->id) ?></td>
                             <td><?= h($events->title) ?></td>
                             <td><?= h($events->subtitle) ?></td>
-                            <td><?= h($events->event_time) ?></td>
                             <td><?= h($events->description_en) ?></td>
                             <td><?= h($events->description_ind) ?></td>
-                            <td><?= h($events->published_on) ?></td>
                             <td><?= h($events->event_orgnaizer_id) ?></td>
                             <td><?= h($events->image_count) ?></td>
                             <td class="actions">
