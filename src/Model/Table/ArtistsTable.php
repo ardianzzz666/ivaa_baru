@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 namespace App\Model\Table;
@@ -12,6 +13,8 @@ use Cake\Validation\Validator;
  * Artists Model
  *
  * @property \App\Model\Table\UsersTable&\Cake\ORM\Association\BelongsTo $Users
+ * @property \App\Model\Table\KhazanahsTable&\Cake\ORM\Association\HasMany $Khazanahs
+ * @property \App\Model\Table\CollectivesTable&\Cake\ORM\Association\BelongsToMany $Collectives
  *
  * @method \App\Model\Entity\Artist get($primaryKey, $options = [])
  * @method \App\Model\Entity\Artist newEntity($data = null, array $options = [])
@@ -46,38 +49,33 @@ class ArtistsTable extends Table
             'foreignKey' => 'user_id',
             'joinType' => 'INNER',
         ]);
-
         $this->belongsTo('Countries', [
             'foreignKey' => 'birth_country',
             'joinType' => 'INNER',
         ]);
-
         $this->belongsTo('Cities', [
             'foreignKey' => 'birth_city',
             'joinType' => 'INNER',
         ]);
-
-        $this->belongsTo('Cities', [
-            'foreignKey' => 'living_city',
+        $this->belongsTo('Domiciles', [
+            'foreignKey' => 'domicile',
+            'className'  => 'Domiciles',
+            'propertyName' => 'domicile',
             'joinType' => 'INNER',
         ]);
-
         $this->belongsTo('Countries', [
             'foreignKey' => 'living_country',
             'joinType' => 'INNER',
         ]);
-        
-        $this->belongsTo('Domiciles', [
-            'foreignKey' => 'domicile',
+        $this->belongsTo('Cities', [
+            'foreignKey' => 'living_city',
             'joinType' => 'INNER',
         ]);
-
         $this->belongsToMany('CreativeIndustries', [
             'foreignKey' => 'artist_id',
             'targetForeignKey' => 'creative_industry_id',
             'joinTable' => 'artists_industries',
         ]);
-
         $this->hasMany('Khazanahs', [
             'foreignKey' => 'artist_id',
         ]);

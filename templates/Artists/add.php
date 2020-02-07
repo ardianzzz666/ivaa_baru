@@ -17,11 +17,14 @@
             <fieldset>
                 <legend><?= __('Add Artist') ?></legend>
                 <?php
-                    echo $this->Form->control('user_id', ['options' => $users]);
+                    //echo $this->Form->control('user_id', ['options' => $users]);
+                    echo $this->Form->control('creative_industries._ids', ['options' => $creativeIndustries]);
                     echo $this->Form->control('fullname');
                     echo $this->Form->control('nickname');
-                    echo $this->Form->control('birth_country');
-                    echo $this->Form->control('birth_city');
+                    echo $this->Form->control('description');
+                    echo $this->Form->control('description_en');
+                    echo $this->Form->control('birth_country', ['options' => $countries]);
+                    echo $this->Form->control('birth_city', ['options' => $cities]);
                     echo $this->Form->control('birth_date');
                     echo $this->Form->control('birth_month');
                     echo $this->Form->control('birth_year');
@@ -33,13 +36,14 @@
                     echo $this->Form->control('email');
                     echo $this->Form->control('phone');
                     echo $this->Form->control('website');
-                    echo $this->Form->control('is_registered');
-                    echo $this->Form->control('slug');
-                    echo $this->Form->control('description');
-                    echo $this->Form->control('obit');
-                    echo $this->Form->control('description_en');
-                    echo $this->Form->control('creative_industries._ids', ['options' => $creativeIndustries]);
-                    echo $this->Form->control('collectives._ids', ['options' => $collectives]);
+                    //echo $this->Form->control('is_registered');
+                    echo $this->Form->control('is_registered', ['options'=>['1' => 'Terdaftar','0' => 'Tidak Terdaftar']]);
+                    //echo $this->Form->control('slug');
+                    
+                    //echo $this->Form->control('obit');
+                    
+                    
+                    //echo $this->Form->control('collectives._ids', ['options' => $collectives]);
                 ?>
             </fieldset>
             <?= $this->Form->button(__('Submit')) ?>

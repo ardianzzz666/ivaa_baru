@@ -21,7 +21,6 @@ use Cake\ORM\Entity;
  * @property string $living_address
  * @property int $living_city
  * @property int $living_country
- * @property int $domicile
  * @property string $email
  * @property string $phone
  * @property string $website
@@ -33,7 +32,13 @@ use Cake\ORM\Entity;
  * @property string $obit
  * @property string $description_en
  *
+ * @property \App\Model\Entity\Domicile $domicile
  * @property \App\Model\Entity\User $user
+ * @property \App\Model\Entity\Country $country
+ * @property \App\Model\Entity\City $city
+ * @property \App\Model\Entity\CreativeIndustry[] $creative_industries
+ * @property \App\Model\Entity\Khazanah[] $khazanahs
+ * @property \App\Model\Entity\Collective[] $collectives
  */
 class Artist extends Entity
 {
@@ -71,5 +76,10 @@ class Artist extends Entity
         'obit' => true,
         'description_en' => true,
         'user' => true,
+        'country' => true,
+        'city' => true,
+        'creative_industries' => true,
+        'khazanahs' => true,
+        'collectives' => true,
     ];
 }

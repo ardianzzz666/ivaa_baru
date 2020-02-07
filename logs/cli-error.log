@@ -110,3 +110,35 @@ Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 171
 
 
 
+2020-02-07 12:31:34 Warning: Warning (512): Association property name "domicile" clashes with field of same name of table "artists". You should explicitly specify the "propertyName" option. in [/var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/ORM/Association.php, line 598]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+Cake\ORM\Association::getProperty() - CORE/src/ORM/Association.php, line 598
+Bake\Command\ModelCommand::getEntityPropertySchema() - ROOT/vendor/cakephp/bake/src/Command/ModelCommand.php, line 564
+Bake\Command\ModelCommand::getTableContext() - ROOT/vendor/cakephp/bake/src/Command/ModelCommand.php, line 128
+Bake\Command\ModelCommand::bake() - ROOT/vendor/cakephp/bake/src/Command/ModelCommand.php, line 98
+Bake\Command\ModelCommand::execute() - ROOT/vendor/cakephp/bake/src/Command/ModelCommand.php, line 81
+Bake\Command\AllCommand::execute() - ROOT/vendor/cakephp/bake/src/Command/AllCommand.php, line 93
+Cake\Console\BaseCommand::run() - CORE/src/Console/BaseCommand.php, line 175
+Cake\Console\CommandRunner::runCommand() - CORE/src/Console/CommandRunner.php, line 336
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 171
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-02-07 12:32:02 Warning: Warning (512): Association property name "domicile" clashes with field of same name of table "artists". You should explicitly specify the "propertyName" option. in [/var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/ORM/Association.php, line 598]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+Cake\ORM\Association::getProperty() - CORE/src/ORM/Association.php, line 598
+Bake\Utility\Model\AssociationFilter::filterAssociations() - ROOT/vendor/cakephp/bake/src/Utility/Model/AssociationFilter.php, line 96
+Bake\Command\TemplateCommand::_filteredAssociations() - ROOT/vendor/cakephp/bake/src/Command/TemplateCommand.php, line 428
+Bake\Command\TemplateCommand::_loadController() - ROOT/vendor/cakephp/bake/src/Command/TemplateCommand.php, line 289
+Bake\Command\TemplateCommand::execute() - ROOT/vendor/cakephp/bake/src/Command/TemplateCommand.php, line 130
+Bake\Command\AllCommand::execute() - ROOT/vendor/cakephp/bake/src/Command/AllCommand.php, line 93
+Cake\Console\BaseCommand::run() - CORE/src/Console/BaseCommand.php, line 175
+Cake\Console\CommandRunner::runCommand() - CORE/src/Console/CommandRunner.php, line 336
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 171
+[main] - ROOT/bin/cake.php, line 12
+
+
+

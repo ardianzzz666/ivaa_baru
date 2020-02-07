@@ -27,6 +27,12 @@ class ArtistsTableTest extends TestCase
     protected $fixtures = [
         'app.Artists',
         'app.Users',
+        'app.Countries',
+        'app.Cities',
+        'app.Domiciles',
+        'app.CreativeIndustries',
+        'app.Khazanahs',
+        'app.Collectives',
     ];
 
     /**

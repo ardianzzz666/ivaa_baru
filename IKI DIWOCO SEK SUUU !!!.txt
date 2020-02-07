@@ -25,3 +25,7 @@ TABEL IVAA FIX CRM
 • khazanahs (khazanahs)
 • collectives (collectives)
 • users (users)
+
+07 February 2020
+==================
+• update artist (artists)
