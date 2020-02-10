@@ -2479,3 +2479,1362 @@ Request URL: /artist-industries
 Client IP: 127.0.0.1
 
 
+2020-02-10 12:33:37 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::artworks() could not be found, or is not accessible. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/Controller.php on line 503
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'artworks',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /users/artworks
+Referer URL: http://localhost:8765/users/login?redirect=%2Fusers%2Fartworks
+Client IP: 127.0.0.1
+
+
+2020-02-10 12:34:08 Error: [Cake\Http\Exception\MissingControllerException] Controller class Arworks could not be found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Arworks',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /arworks
+Client IP: 127.0.0.1
+
+
+2020-02-10 13:00:58 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /css/form.css
+Referer URL: http://localhost:8765/users/login?redirect=%2Fusers%2Flogout
+Client IP: 127.0.0.1
+
+
+2020-02-10 13:10:34 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /css/form.css
+Referer URL: http://localhost:8765/users/login
+Client IP: 127.0.0.1
+
+
+2020-02-10 13:10:37 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /css/form.css
+Referer URL: http://localhost:8765/users/login?redirect=%2Fusers%2Flogout
+Client IP: 127.0.0.1
+
+
+2020-02-10 13:11:48 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /css/form.css
+Referer URL: http://localhost:8765/users/login?redirect=%2Fusers%2Flogout
+Client IP: 127.0.0.1
+
+
+2020-02-10 13:13:54 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /css/form.css
+Referer URL: http://localhost:8765/users/login?redirect=%2Fusers%2Flogout
+Client IP: 127.0.0.1
+
+
+2020-02-10 13:14:32 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /css/form.css
+Referer URL: http://localhost:8765/users/login?redirect=%2Fusers%2Flogout
+Client IP: 127.0.0.1
+
+
+2020-02-10 13:14:46 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /css/form.css
+Referer URL: http://localhost:8765/users/login
+Client IP: 127.0.0.1
+
+
+2020-02-10 13:15:10 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /css/form.css
+Referer URL: http://localhost:8765/users/login
+Client IP: 127.0.0.1
+
+
+2020-02-10 13:15:13 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /css/form.css
+Referer URL: http://localhost:8765/users/login?redirect=%2Fusers%2Flogout
+Client IP: 127.0.0.1
+
+
+2020-02-10 13:17:21 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /css/form.css
+Referer URL: http://localhost:8765/users/login?redirect=%2Fusers%2Flogout
+Client IP: 127.0.0.1
+
+
+2020-02-10 13:18:00 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /css/form.css
+Referer URL: http://localhost:8765/users/login?redirect=%2Fusers%2Flogout
+Client IP: 127.0.0.1
+
+
+2020-02-10 13:18:28 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /css/form.css
+Referer URL: http://localhost:8765/users/login?redirect=%2Fusers%2Flogout
+Client IP: 127.0.0.1
+
+
+2020-02-10 13:18:28 Error: [Cake\Http\Exception\MissingControllerException] Controller class Js could not be found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /js/jquery-1.6.4.min.js
+Referer URL: http://localhost:8765/users/login?redirect=%2Fusers%2Flogout
+Client IP: 127.0.0.1
+
+
+2020-02-10 13:18:33 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /css/form.css
+Referer URL: http://localhost:8765/users/login?redirect=%2Fusers%2Flogout
+Client IP: 127.0.0.1
+
+
+2020-02-10 13:22:55 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /css/form.css
+Referer URL: http://localhost:8765/users/login?redirect=%2Fusers%2Flogout
+Client IP: 127.0.0.1
+
+
+2020-02-10 13:22:56 Error: [Cake\Http\Exception\MissingControllerException] Controller class Js could not be found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /js/jquery-1.6.4.min.js
+Referer URL: http://localhost:8765/users/login?redirect=%2Fusers%2Flogout
+Client IP: 127.0.0.1
+
+
+2020-02-10 13:24:04 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /css/form.css
+Referer URL: http://localhost:8765/users/login
+Client IP: 127.0.0.1
+
+
+2020-02-10 13:24:05 Error: [Cake\Http\Exception\MissingControllerException] Controller class Js could not be found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /js/jquery-1.6.4.min.js
+Referer URL: http://localhost:8765/users/login
+Client IP: 127.0.0.1
+
+
+2020-02-10 13:24:52 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /css/form.css
+Referer URL: http://localhost:8765/users/login?redirect=%2Fartworks
+Client IP: 127.0.0.1
+
+
+2020-02-10 13:24:52 Error: [Cake\Http\Exception\MissingControllerException] Controller class Js could not be found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /js/jquery-1.6.4.min.js
+Referer URL: http://localhost:8765/users/login?redirect=%2Fartworks
+Client IP: 127.0.0.1
+
+
+2020-02-10 13:25:08 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /css/form.css
+Referer URL: http://localhost:8765/users/login
+Client IP: 127.0.0.1
+
+
+2020-02-10 13:25:08 Error: [Cake\Http\Exception\MissingControllerException] Controller class Js could not be found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /js/jquery-1.6.4.min.js
+Referer URL: http://localhost:8765/users/login
+Client IP: 127.0.0.1
+
+
+2020-02-10 13:25:09 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /css/form.css
+Referer URL: http://localhost:8765/users/login?redirect=%2Fusers%2Flogout
+Client IP: 127.0.0.1
+
+
+2020-02-10 13:25:10 Error: [Cake\Http\Exception\MissingControllerException] Controller class Js could not be found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /js/jquery-1.6.4.min.js
+Referer URL: http://localhost:8765/users/login?redirect=%2Fusers%2Flogout
+Client IP: 127.0.0.1
+
+
+2020-02-10 13:26:56 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /css/form.css
+Referer URL: http://localhost:8765/users/login?redirect=%2Fusers
+Client IP: 127.0.0.1
+
+
+2020-02-10 13:26:56 Error: [Cake\Http\Exception\MissingControllerException] Controller class Js could not be found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /js/jquery-1.6.4.min.js
+Referer URL: http://localhost:8765/users/login?redirect=%2Fusers
+Client IP: 127.0.0.1
+
+
+2020-02-10 13:27:01 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /css/form.css
+Referer URL: http://localhost:8765/users/login?redirect=%2Fusers%2Fadd
+Client IP: 127.0.0.1
+
+
+2020-02-10 13:27:01 Error: [Cake\Http\Exception\MissingControllerException] Controller class Js could not be found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /js/jquery-1.6.4.min.js
+Referer URL: http://localhost:8765/users/login?redirect=%2Fusers%2Fadd
+Client IP: 127.0.0.1
+
+
+2020-02-10 13:27:02 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /css/form.css
+Referer URL: http://localhost:8765/users/login?redirect=%2Fusers%2Fadd
+Client IP: 127.0.0.1
+
+
+2020-02-10 13:27:02 Error: [Cake\Http\Exception\MissingControllerException] Controller class Js could not be found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /js/jquery-1.6.4.min.js
+Referer URL: http://localhost:8765/users/login?redirect=%2Fusers%2Fadd
+Client IP: 127.0.0.1
+
+
+2020-02-10 13:27:10 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /css/form.css
+Referer URL: http://localhost:8765/users/login
+Client IP: 127.0.0.1
+
+
+2020-02-10 13:27:11 Error: [Cake\Http\Exception\MissingControllerException] Controller class Js could not be found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /js/jquery-1.6.4.min.js
+Referer URL: http://localhost:8765/users/login
+Client IP: 127.0.0.1
+
+
+2020-02-10 13:27:12 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /css/form.css
+Referer URL: http://localhost:8765/users/login?redirect=%2Fusers%2Flogout
+Client IP: 127.0.0.1
+
+
+2020-02-10 13:27:13 Error: [Cake\Http\Exception\MissingControllerException] Controller class Js could not be found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /js/jquery-1.6.4.min.js
+Referer URL: http://localhost:8765/users/login?redirect=%2Fusers%2Flogout
+Client IP: 127.0.0.1
+
+
+2020-02-10 13:41:22 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /css/form.css
+Referer URL: http://localhost:8765/users/login
+Client IP: 127.0.0.1
+
+
+2020-02-10 13:41:22 Error: [Cake\Http\Exception\MissingControllerException] Controller class Js could not be found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /js/jquery-1.6.4.min.js
+Referer URL: http://localhost:8765/users/login
+Client IP: 127.0.0.1
+
+
+2020-02-10 13:41:33 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /css/form.css
+Referer URL: http://localhost:8765/users
+Client IP: 127.0.0.1
+
+
+2020-02-10 13:41:33 Error: [Cake\Http\Exception\MissingControllerException] Controller class DigitalArchiveOfIndonesianContemporaryArt_files could not be found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'DigitalArchiveOfIndonesianContemporaryArt_files',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /Digital%20Archive%20of%20Indonesian%20Contemporary%20Art_files/ga.js
+Referer URL: http://localhost:8765/users
+Client IP: 127.0.0.1
+
+

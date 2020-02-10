@@ -1,0 +1,16 @@
+/*=================== Jan Nambah dikit*/
+.clickable-style  {
+
+	height: 30px;
+	color:#960;
+	text-align:center;
+	padding: 15px;
+	border:1px solid #999; -webkit-border-radius:3px; -moz-border-radius:3px;
+	background:url(../images/button_orange_bg.jpg) 0px -14px; color:white;
+	display:inline-block; height:26px; line-height:24px; margin-right:5px; padding:0;
+	
+}
+.clickable-style:hover {cursor:pointer;}
+.clickable-style a {color:#FFF; padding:0 15px;}
+.clickable-style  span{font-size:14px; padding:0 15px}
+.clickable-style  span:hover {cursor:pointer;}

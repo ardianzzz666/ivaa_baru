@@ -19,6 +19,7 @@ class DomicilesController extends AppController
      */
     public function index()
     {
+        $this->viewBuilder()->setLayout('backend');
         $domiciles = $this->paginate($this->Domiciles);
 
         $this->set(compact('domiciles'));

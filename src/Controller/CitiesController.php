@@ -19,6 +19,7 @@ class CitiesController extends AppController
      */
     public function index()
     {
+        $this->viewBuilder()->setLayout('backend');
         $cities = $this->paginate($this->Cities);
 
         $this->set(compact('cities'));

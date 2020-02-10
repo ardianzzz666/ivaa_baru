@@ -1,0 +1,1 @@
+var SERVER = Project.basePath;

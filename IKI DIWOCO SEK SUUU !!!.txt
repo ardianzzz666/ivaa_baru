@@ -29,3 +29,7 @@ TABEL IVAA FIX CRM
 07 February 2020
 ==================
 • update artist (artists)
+
+10 February 2020
+==================
+Create layout template

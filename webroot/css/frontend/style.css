@@ -1,0 +1,444 @@
+/* `HEADER
+----------------------------------------------------------------------------------------------------*/
+#header  {padding-top:30px;}
+#header .grid_4 {position:relative; display:block;}
+	h1#logo {
+	width: 301px; height: 100px;
+	background: url(../../images/ivaa-logo.jpg) no-repeat 0 0;
+	/*top: 9px;
+	margin-left: 15px;*/
+	}
+	
+	h1#logo a { display: block; width: 301px; height: 100px;	}
+	h1#logo span { position: absolute; margin-left: -9999px;}
+
+#tagline { }
+	#tagline span { font: 18px Bebas, Tahoma, Geneva, sans-serif; color:#777;}
+
+#search {background-color:#ebf5d6; margin-bottom:20px;  }
+	#search .grid_12 { padding:5px 0;}
+
+
+#bahasa { padding-top:20px;}
+
+
+/*===================================================================================================================== SUCCESS & ERROR */
+.error {padding:10px;  background-color:#FFC; border:1px solid #C00; }
+.flash_success {padding:10px;  background-color:#CFC; border:1px solid #090; }
+.flash_failure {padding:10px;  background-color:#FCC; border:1px solid #C00; }
+.flash_failure, .flash_success, .flash_info, .flash_warning {
+	border: 1px solid;
+	margin: 10px 0px;
+	padding:15px 10px 15px 50px;
+	background-repeat: no-repeat;
+	background-position: 10px center;
+}
+
+.flash_info {
+    color: #00529B;
+    background-color: #BDE5F8;
+    background-image: url(../../images/info.png);
+}
+.flash_success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+    background-image:url(../../images/success.png);
+}
+.flash_warning {
+    color: #9F6000;
+    background-color: #FEEFB3;
+    background-image: url(../../images/warning.png);
+}
+.flash_failure {
+    color: #D8000C;
+    background-color: #FFBABA;
+    background-image: url(../../images/error.png);
+}
+
+/* `CONTENT
+----------------------------------------------------------------------------------------------------*/
+
+
+ul#menu {  font: 18px Bebas, Tahoma, Geneva, sans-serif; }
+	ul#menu li {list-style:none; margin:0; text-align:right; padding:0; margin-bottom:10px;}
+	ul#menu li a { color:#555; padding-right:20px; display:block; background-color:#eee; text-decoration:none; font-size:18px; }
+	ul#menu li a:hover, ul#menu li.active a { background-color:#cce599; color:#333;}
+
+#social-media {margin-bottom:20px; text-align:right;}
+	#social-media ul li { display:inline; float:left; margin:0; margin-right:5px;}
+
+#sponsor h3 { font-size:13px; font-weight:normal; margin:0; margin-bottom:10px; text-align:right;}
+	#sponsor ul li {margin:0; list-style:none; text-align:right;}
+
+#featured, #pelaku, #khazanah { margin-bottom:20px;}
+
+#featured .about {padding-top:10px;}	
+	#featured .about h6 {margin-bottom:10px; font-size:18px; font-weight:normal;}
+
+.pelaku-item { text-align:center;}
+	.pelaku-item .karya-thumb {background-color:#f4f4f4; margin-bottom:5px;}
+	.pelaku-item .info-karya { }
+	.pelaku-item .info-karya a {display:block; font-weight:bold;}
+		.pelaku-item .info-karya span { color:#666;}
+		
+	.pelaku-item a { display:block;}
+	.pelaku-item .info-karya span a{ display:inline;}
+	
+h3.section-heading { font: 18px Bebas, Tahoma, Geneva, sans-serif; padding:10px 0;}
+
+h3.khazanah-heading { position:relative;border-bottom: 1px solid #EEE; padding-bottom: 10px; margin-bottom:5px;}
+	h3.khazanah-heading a { position:absolute; right:0; font-size:12px; font-family:Arial, Helvetica, sans-serif; padding:5px;}
+
+#khazanah ul li {margin:0; list-style:none; border-bottom:1px solid #eee; padding:5px 0;}
+	#khazanah .dokumen ul li a {display:block; font-weight:bold;}
+	#khazanah .dokumen ul li span, .gambar .desc span, .video-audio .desc span { color:#666; font-size:10px;}
+
+        .gambar .desc a, .video-audio .desc a { font-weight:bold;}
+	.gambar-item, .av-item {border-bottom:1px solid #eee; padding:5px 0;}
+		.gambar-item .thumb { float:left; display:inline; width:60px; margin-right:10px;}
+		.av-item .thumb { float:left; display:inline; width:35px; margin-right:10px;}
+		.gambar-item .desc { float:left; display:inline; width:150px; }
+		.av-item .desc { float:left; display:inline; width:175px; }
+			.gambar-item .desc a, .av-item .desc a { display:block;}
+
+#sponsor ul li { margin-bottom:10px;}
+/* `FOOTER
+----------------------------------------------------------------------------------------------------*/
+
+#footer { text-align:center; background:url(../../images/f-border.jpg) repeat-x top left; padding:20px 0; color:#666;}
+	#footer a { color:#333; font-size:12px; padding:0 5px;}
+	#footer .menu, #footer .menu-2 { margin-bottom:5px;}
+	.copyright { font-size:10px;}
+
+
+/* `ARTISTS
+----------------------------------------------------------------------------------------------------*/
+
+.artist-list {}
+	.artist-list td {padding-bottom:10px;}
+	.artist-list .kategori, .artist-list .lokasi { font-size:10px; color:#333;}
+	.artist-list .thumb, .artist-list .nama, .artist-list .kategori, .artist-list .lokasi  { width:140px; }
+	.artist-list .nama { height:30px; line-height:30px; overflow:hidden;}
+	.artist-list .kategori, .artist-list .lokasi  { height:15px; overflow:hidden;}
+	.alphabet { color:#666;  font-weight:bold; background-color:#f4f4f4; width:140px; height:140px; text-align:center;}
+	.alphabet  a { display:block;}
+	
+		
+/* `TABLE LIST
+----------------------------------------------------------------------------------------------------*/	
+
+table.table-list {	}
+	.table-list thead tr th { background-color:#eee; padding:5px;}
+	.table-list tbody tr td {padding:5px; border-bottom:1px solid #eee;}
+	
+table.list-w-thumb {}
+	table.list-w-thumb tr td { padding:10px 0; border-bottom:1px solid #eee;}
+	table.list-w-thumb h6 { margin-bottom:5px;}
+	table.list-w-thumb img { margin-top:3px;}
+
+table.table-list span { font: 10px; color:#777; font-style: italic;}
+
+/* `SEARCH KARYA
+----------------------------------------------------------------------------------------------------*/	
+.search input {
+    float: left;
+}
+
+#search-karya { margin-bottom:10px;}
+
+/* `TAB
+----------------------------------------------------------------------------------------------------*/	
+.corner a {
+	-webkit-border-top-left-radius: 3px;
+	-moz-border-top-left-radius: 3px;
+	-webkit-border-top-right-radius: 3px;
+	-moz-border-top-right-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	-moz-border-bottom-left-radius: 3px;
+	-webkit-border-bottom-right-radius: 3px;
+	-moz-border-bottom-right-radius: 3px;
+	border-top-left-radius: 3px 3px;
+	border-top-right-radius: 3px 3px;
+	border-bottom-left-radius: 3px 3px;
+	border-bottom-right-radius: 3px 3px;
+	}
+
+.tab { margin-bottom:20px;}
+.tab a {
+	color: #777;
+	font-size: 16px;
+	padding: 10px 15px;
+	margin-right: 10px;
+	font-weight: bold;
+	background-color: #eee;
+	
+}
+
+.tab a.current { background-color:#f0f0f0;}
+	
+#tabs a { color:#060;}
+	#tabs {
+		font-family:Arial, Helvetica, sans-serif;
+		font-size: 12px;
+		}
+
+	
+/* `BREADCRUMB
+----------------------------------------------------------------------------------------------------*/	
+
+#breadcrumb { font-size:10px; margin-bottom:10px; color:#666;}
+
+
+/* `ARTICLE CONTENT
+----------------------------------------------------------------------------------------------------*/	
+.article-content {}
+	.article-content img { margin: 3px 10px 10px 0; float:left;}
+
+
+/* `CONTACT FORM
+----------------------------------------------------------------------------------------------------*/	
+.contact_form {}
+	.contact_form .grid_2 { padding-top:3px; text-align:right; color:#666; font-weight:bold;}
+	.contact_form .required_mark {color:red;}
+	button.green-btn { background-color:#060; color:#fff; padding:5px 10px; border:1px #063 solid; cursor:pointer; font-weight:bold;}
+	button.green-btn:hover { background-color:#093;}
+	.contact_form input[type="text"] { width: 250px;}
+	.contact_form textarea { width:250px;}
+	
+.kontak-info h6 { color:#690; }
+.k-lbl { font-weight:bold; color:#666;}	
+	
+/* `PAGINATION
+----------------------------------------------------------------------------------------------------*/		
+
+.pagination, .page_limit {float:right; margin-bottom:10px; margin-top:4px; display:block;}
+.page_limit {float:left; margin-left:20px;}
+.pagination ul, .pagination ul li, #pagination-element ul, #pagination-element ul li { list-style: none;}
+.pagination ul li, .page_limit ul li {float:left; margin:0;}
+.pagination ul li.active, .page_limit ul li.active {padding:0px 5px; font-weight:bold;}
+.pagination a, .page_limit a {padding:2px 5px; background:white; border:1px solid #e4d2bc; margin:1px;}
+.pagination a:hover, .page_limit a:hover {border-color:#F60;}
+.pagination a.prev-next {background:none; border:none;}
+
+.pagination .current, .page_limit .current {margin:0 4px;}
+.pagination ul li.disabled, .page_limit ul li.disabled {margin-left:-9999px; position:absolute;}
+.pagination a.active, .page_limit a.active, .pagination a.first, .page_limit a.first, .pagination a.last, .page_limit a.last {background-color:transparent; border:none;}
+
+/* `BORDER
+----------------------------------------------------------------------------------------------------*/	
+.border {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;}
+
+/*=========================================================== PELAKU MENU / TAB */
+.pelaku-menu { display:block; margin-bottom:30px; }
+.pelaku-menu a { color:#777; font-size:12px; padding:5px 10px; margin-right:10px; font-weight:bold; background-color:#f4f4f4; border:1px solid #ddd;
+	-webkit-border-top-left-radius:3px; -moz-border-top-left-radius:3px;
+	-webkit-border-top-right-radius:3px; -moz-border-top-right-radius:3px;
+	-webkit-border-bottom-left-radius:3px; -moz-border-bottom-left-radius:3px;
+	-webkit-border-bottom-right-radius:3px; -moz-border-bottom-right-radius:3px;
+}
+.pelaku-menu a:hover { color:#333;}
+.pelaku-menu a.active { background-color:#fff; color:#333; cursor:default; border:1px solid #fff;}
+
+/*=========================================================== ARTWORK DETAIL */
+
+.a-img img { border: 1px solid #ccc; padding: 10px; margin-bottom:10px;}
+
+
+/*=========================================================== SEARCH */
+/* `ADVANCED SEARCH & BASIC SEARCH
+----------------------------------------------------------------------------------------------------*/
+
+.adv-search table { width:100%; margin:0; margin-left:20px; margin-bottom:10px; }
+.adv-search tr th { font-weight:bold; color:#555;}
+.adv-search tr td { vertical-align:middle;}
+.adv-search table tr td { width:20%; border:none;}
+
+#search { padding:10px 0; -moz-border-radius: 5px; -khtml-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
+#s-lbl, #s-kat, #s-btn, #s-teks { float:left; display:inline; margin-right:5px;}
+#s-lbl { height:34px; line-height:34px; font-weight:bold;}
+#s-kat select, #s-teks input { font-size:14px; padding:6px;}
+#s-btn input {font-size:14px; padding:4px 10px; }
+/*=============== tambahan dari amri ==================*/
+#cari select, input {
+    padding:4px;
+}
+/*=============== search text ==================*/
+
+.defaultText { width: 300px;}
+.defaultTextActive { color: #a1a1a1;  }
+
+/* ------- admin login */
+#login .container {
+    margin: 0 auto;
+    padding-top: 40px;
+    width: 360px;
+    height: 600px;
+}
+#login h1 {
+    background: url("../../images/logo-login-s.png") no-repeat scroll center center transparent;
+    height: 65px;
+    width: 350px;
+}
+#login h1 span {
+    margin-left: -9999px;
+    position: absolute;
+}
+#login .lform {
+    background: none repeat scroll 0 0 white;
+    border: 1px solid #E5E5E5;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 4px 18px #C8C8C8;
+    padding: 20px;
+    
+}
+#login h1 {
+    font-family: Arial;
+    font-size: 36px;
+    text-align: center;
+}
+#login .label, #login .input, #login .full {
+    clear: both;
+    text-align: left;
+    width: 100%;
+}
+#login .input input {
+    border-color: #DFDFDF;
+    display: block;
+    font-size: 24px;
+    padding: 4px;
+    width: 97%;
+}
+#login .label {
+    color: #333333;
+    font-weight: bold;
+}
+#login .copyright {
+    color: #999999;
+    margin: 10px 0;
+    text-align: center;
+}
+.trailler a {
+    cursor: pointer;
+}
+#action-small ul li a {
+    background: url("../../images/buttons-2.jpg") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 12px;
+}
+#action-small ul li {
+    display: inline;
+    float: left;
+    margin: 0 5px 0 0;
+    padding: 0;
+    width: 12px;
+}
+#action-small li.insert a {
+    background-position: 0 -12px;
+}
+#action-small li.delete a {
+    background-position: 0 -36px;
+}
+#action-small li.edit a {
+    background-position: 0 -60px;
+}
+
+.left-description{
+    float: left;
+    padding-right: 10px;
+}
+
+/* added from bootstrap */
+.pager {
+  margin-left: 0;
+  margin-bottom: 18px;
+  list-style: none;
+  text-align: center;
+  *zoom: 1;
+}
+.pager:before, .pager:after {
+  display: table;
+  content: "";
+}
+.pager:after {
+  clear: both;
+}
+.pager li {
+  display: inline;
+}
+.pager a {
+  display: inline-block;
+  padding: 5px 14px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
+.pager a:hover {
+  text-decoration: none;
+  background-color: #f5f5f5;
+}
+.pager .next a {
+  float: right;
+}
+.pager .previous a {
+  float: left;
+}
+
+/* add 27-06-2012 */
+.alert {
+  padding: 8px 35px 8px 14px;
+  margin-bottom: 18px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  background-color: #fcf8e3;
+  border: 1px solid #fbeed5;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.alert, .alert-heading {
+  color: #c09853;
+}
+.alert .close {
+  position: relative;
+  top: -2px;
+  right: -21px;
+  line-height: 18px;
+}
+.alert-success {
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+.alert-success, .alert-success .alert-heading {
+  color: #468847;
+}
+.alert-danger, .alert-error {
+  background-color: #f2dede;
+  border-color: #eed3d7;
+}
+.alert-danger,
+.alert-error,
+.alert-danger .alert-heading,
+.alert-error .alert-heading {
+  color: #b94a48;
+}
+.alert-info {
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+}
+.alert-info, .alert-info .alert-heading {
+  color: #3a87ad;
+}
+.alert-block {
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.alert-block > p, .alert-block > ul {
+  margin-bottom: 0;
+}
+.alert-block p + p {
+  margin-top: 5px;
+}

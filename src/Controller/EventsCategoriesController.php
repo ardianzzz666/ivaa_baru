@@ -19,6 +19,7 @@ class EventsCategoriesController extends AppController
      */
     public function index()
     {
+        $this->viewBuilder()->setLayout('backend');
         $eventsCategories = $this->paginate($this->EventsCategories);
 
         $this->set(compact('eventsCategories'));

@@ -19,6 +19,7 @@ class ArtworksCategoriesController extends AppController
      */
     public function index()
     {
+        $this->viewBuilder()->setLayout('backend');
         $artworksCategories = $this->paginate($this->ArtworksCategories);
 
         $this->set(compact('artworksCategories'));

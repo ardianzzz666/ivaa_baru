@@ -19,6 +19,7 @@ class MediaController extends AppController
      */
     public function index()
     {
+        $this->viewBuilder()->setLayout('backend');
         $media = $this->paginate($this->Media);
 
         $this->set(compact('media'));

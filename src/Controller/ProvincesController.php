@@ -19,6 +19,7 @@ class ProvincesController extends AppController
      */
     public function index()
     {
+        $this->viewBuilder()->setLayout('backend');
         $provinces = $this->paginate($this->Provinces);
 
         $this->set(compact('provinces'));

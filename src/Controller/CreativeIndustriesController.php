@@ -19,6 +19,7 @@ class CreativeIndustriesController extends AppController
      */
     public function index()
     {
+        $this->viewBuilder()->setLayout('backend');
         $creativeIndustries = $this->paginate($this->CreativeIndustries);
 
         $this->set(compact('creativeIndustries'));

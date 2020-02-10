@@ -19,6 +19,7 @@ class CountriesController extends AppController
      */
     public function index()
     {
+        $this->viewBuilder()->setLayout('backend');
         $countries = $this->paginate($this->Countries);
 
         $this->set(compact('countries'));

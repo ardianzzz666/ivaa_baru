@@ -19,6 +19,7 @@ class EventsController extends AppController
      */
     public function index()
     {
+        $this->viewBuilder()->setLayout('backend');
         $this->paginate = [
             'contain' => ['EventOrganizers'],
         ];

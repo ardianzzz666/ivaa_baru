@@ -67,7 +67,7 @@
                             <th><?= __('Phone') ?></th>
                             <th><?= __('Website') ?></th>
                             <th><?= __('Created') ?></th>
-                            <th><?= __('Updated') ?></th>
+                            <th><?= __('Modified') ?></th>
                             <th><?= __('Is Registered') ?></th>
                             <th><?= __('Slug') ?></th>
                             <th><?= __('Description') ?></th>
@@ -95,7 +95,7 @@
                             <td><?= h($artists->phone) ?></td>
                             <td><?= h($artists->website) ?></td>
                             <td><?= h($artists->created) ?></td>
-                            <td><?= h($artists->updated) ?></td>
+                            <td><?= h($artists->modified) ?></td>
                             <td><?= h($artists->is_registered) ?></td>
                             <td><?= h($artists->slug) ?></td>
                             <td><?= h($artists->description) ?></td>
