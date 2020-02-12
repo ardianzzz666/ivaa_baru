@@ -21,7 +21,7 @@ class EventOrganizersController extends AppController
     {
         $this->viewBuilder()->setLayout('backend');
         $eventOrganizers = $this->paginate($this->EventOrganizers);
-
+        $this->set('judul', 'Event Organizer');
         $this->set(compact('eventOrganizers'));
     }
 

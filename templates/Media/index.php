@@ -1,9 +1,4 @@
-<?php
-/**
- * @var \App\View\AppView $this
- * @var \App\Model\Entity\Media[]|\Cake\Collection\CollectionInterface $media
- */
-?>
+
 <div class="media index content">
     <?= $this->Html->link(__('New Media'), ['action' => 'add'], ['class' => 'button float-right']) ?>
     <h3><?= __('Media') ?></h3>
@@ -17,16 +12,16 @@
                 </tr>
             </thead>
             <tbody>
-                <?php foreach ($media as $media): ?>
-                <tr>
-                    <td><?= $this->Number->format($media->id) ?></td>
-                    <td><?= h($media->name) ?></td>
-                    <td class="actions">
-                        <?= $this->Html->link(__('View'), ['action' => 'view', $media->id]) ?>
-                        <?= $this->Html->link(__('Edit'), ['action' => 'edit', $media->id]) ?>
-                        <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $media->id], ['confirm' => __('Are you sure you want to delete # {0}?', $media->id)]) ?>
-                    </td>
-                </tr>
+                <?php foreach ($media as $media) : ?>
+                    <tr>
+                        <td><?= $this->Number->format($media->id) ?></td>
+                        <td><?= h($media->name) ?></td>
+                        <td class="actions">
+                            <?= $this->Html->link(__('View'), ['action' => 'view', $media->id]) ?>
+                            <?= $this->Html->link(__('Edit'), ['action' => 'edit', $media->id]) ?>
+                            <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $media->id], ['confirm' => __('Are you sure you want to delete # {0}?', $media->id)]) ?>
+                        </td>
+                    </tr>
                 <?php endforeach; ?>
             </tbody>
         </table>

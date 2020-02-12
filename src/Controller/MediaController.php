@@ -21,7 +21,7 @@ class MediaController extends AppController
     {
         $this->viewBuilder()->setLayout('backend');
         $media = $this->paginate($this->Media);
-
+        $this->set('judul', 'Media');
         $this->set(compact('media'));
     }
 

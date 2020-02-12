@@ -8,9 +8,9 @@
 
     <title>Digital Archive of Indonesian Contemporary Art</title>
 
-    <?php echo $this->Html->css(array('reset.css', 'text.css', 'form.css', 'admin_style.css','jquery-ui-1.8.16.custom.css','jquery.alerts.css')); ?>
+    <?php echo $this->Html->css(array('reset.css', 'text.css', 'form.css', 'admin_style.css', 'jquery-ui-1.8.16.custom.css', 'jquery.alerts.css')); ?>
 
-    <script type="text/javascript" async="" src="/Digital Archive of Indonesian Contemporary Art_files/ga.js"></script>
+    <!-- <script type="text/javascript" async="" src="/Digital Archive of Indonesian Contemporary Art_files/ga.js"></script> -->
     <script type="text/javascript" src="/js/jquery/jquery-1.6.4.min.js"></script>
     <script type="text/javascript" src="/js/jquery/jquery-ui.min.js"></script>
     <script type="text/javascript" src="/js/jquery/jquery.validate.min.js"></script>
@@ -40,10 +40,12 @@
                     <div id="article" class="common">
                         <div class="usr_menu common">
                             <span class="date">
-                                Mon : 10-Feb-2020 </span>
-                            Welcome admin | <a href="#">Setting</a> | <a href="#">Logout</a> </div>
-                        <h2 class="page_title">Pelaku Seni - Individu</h2>
+                                Mon : <?php echo date("d-m-Y"); ?> </span>
+                            Welcome admin | <a href="#">Setting</a> | <?php echo $this->Html->link('Logout', ['controller' => 'users', 'action' => 'logout', '_full' => true]); ?></div>
+                        <h2 class="page_title"><?= $judul; ?></h2>
                         <!-- Content HERE !!!!! -->
+                        <?= $this->Flash->render() ?>
+                        <?= $this->fetch('content') ?>
                     </div>
                     <!--end #article-->
 
@@ -64,15 +66,12 @@
                 <!--end .row-->
 
                 <div class="row common">
-                    <h6 class="common"><a href="http://archive.ivaa-online.org/admin/artists#">Pelaku Seni</a></h6>
+                    <h6 class="common"><a href="#">Pelaku Seni</a></h6>
                     <div id="" class="common">
                         <ul class="common">
-                            <li class="common"><a href="http://archive.ivaa-online.org/admin/artists">Individu</a></li>
-                            <li class="common"><a href="http://archive.ivaa-online.org/admin/collectives">Collective</a>
-                            </li>
-                            <li class="common"><a href="http://archive.ivaa-online.org/admin/creative_industries">Kategori Pelaku
-                                    Seni</a></li>
-
+                            <li class="common"><?php echo $this->Html->link('Individu', ['controller' => 'artists', 'action' => 'index', '_full' => true]); ?></li>
+                            <li class="common"><?php echo $this->Html->link('Collective', ['controller' => 'collectives', 'action' => 'index', '_full' => true]); ?></li>
+                            <li class="common"><?php echo $this->Html->link('Kategori Pelaku Seni', ['controller' => 'creative-industries', 'action' => 'index', '_full' => true]); ?></li>
                         </ul>
                     </div>
                 </div>
@@ -82,10 +81,9 @@
                     <h6 class="common"><a href="#" id="">Karya Seni</a></h6>
                     <div id="" class="common">
                         <ul class="common">
-                            <li class="common"><a href="http://archive.ivaa-online.org/admin/artworks">List</a> </li>
-                            <li class="common"><a href="http://archive.ivaa-online.org/admin/media">Media</a></li>
-                            <li class="common"><a href="http://archive.ivaa-online.org/admin/artwork_categories">Kategori</a></li>
-
+                            <li class="common"><?php echo $this->Html->link('List', ['controller' => 'artworks', 'action' => 'index', '_full' => true]); ?> </li>
+                            <li class="common"><?php echo $this->Html->link('Media', ['controller' => 'media', 'action' => 'index', '_full' => true]); ?></li>
+                            <li class="common"><?php echo $this->Html->link('Kategori', ['controller' => 'artworks-categories', 'action' => 'index', '_full' => true]); ?></li>
                         </ul>
                     </div>
                 </div>
@@ -95,13 +93,12 @@
                     <h6 class="common"><a href="#" id="">Lokasi</a></h6>
                     <div id="" class="common">
                         <ul class="common">
-                            <li class="common"><a href="http://archive.ivaa-online.org/admin/countries">Negara</a></li>
-                            <li class="common"><a href="http://archive.ivaa-online.org/admin/provinces">Propinsi</a>
+                            <li class="common"><?php echo $this->Html->link('Negara', ['controller' => 'countries', 'action' => 'index', '_full' => true]); ?> </li>
+                            <li class="common"><?php echo $this->Html->link('Provinsi', ['controller' => 'provinces', 'action' => 'index', '_full' => true]); ?>
                             </li>
-                            <li class="common"><a href="http://archive.ivaa-online.org/admin/cities">Kota</a></li>
-                            <li class="common"><a href="http://archive.ivaa-online.org/admin/domiciles">Domisili</a>
+                            <li class="common"><?php echo $this->Html->link('Kota', ['controller' => 'cities', 'action' => 'index', '_full' => true]); ?></li>
+                            <li class="common"><?php echo $this->Html->link('Domisili', ['controller' => 'domiciles', 'action' => 'index', '_full' => true]); ?>
                             </li>
-
                         </ul>
                     </div>
                 </div>
@@ -111,11 +108,11 @@
                     <h6 class="common"><a href="#">Events</a></h6>
                     <div id="" class="common">
                         <ul class="common">
-                            <li class="common"><a href="http://archive.ivaa-online.org/admin/events">List Event</a></li>
-                            <li class="common"><a href="http://archive.ivaa-online.org/admin/event_categories">Kategori</a></li>
-                            <li class="common"><a href="http://archive.ivaa-online.org/admin/event_organizers">EO</a>
+                            <li class="common"><?php echo $this->Html->link('List Event', ['controller' => 'events', 'action' => 'index', '_full' => true]); ?> </li>
+                            <li class="common"><?php echo $this->Html->link('Kategori', ['controller' => 'events-categories', 'action' => 'index', '_full' => true]); ?> </li>
+                            <li class="common"><?php echo $this->Html->link('EO', ['controller' => 'event-organizers', 'action' => 'index', '_full' => true]); ?>
                             </li>
-                            <li class="common"><a href="http://archive.ivaa-online.org/admin/art_venues">Ruang Seni</a>
+                            <li class="common"><?php echo $this->Html->link('Ruang Seni', ['controller' => 'art-venues', 'action' => 'index', '_full' => true]); ?>
                             </li>
                         </ul>
                     </div>
@@ -126,9 +123,8 @@
                     <h6 class="common"><a href="s#">Khazanah</a></h6>
                     <div id="" class="common">
                         <ul class="common">
-                            <li class="common"><a href="http://archive.ivaa-online.org/admin/khazanahs">List
-                                    Khazanah</a></li>
-                            <li class="common"><a href="http://archive.ivaa-online.org/admin/khazanah_categories">Kategori</a></li>
+                            <li class="common"><?php echo $this->Html->link('List Khazanah', ['controller' => 'khazanahs', 'action' => 'index', '_full' => true]); ?> </li>
+                            <li class="common"><?php echo $this->Html->link('Kategori', ['controller' => 'khazanah-categories', 'action' => 'index', '_full' => true]); ?> </li>
                         </ul>
                     </div>
                 </div>

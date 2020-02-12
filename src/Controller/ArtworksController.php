@@ -24,7 +24,7 @@ class ArtworksController extends AppController
             'contain' => ['ArtworksCategories'],
         ];
         $artworks = $this->paginate($this->Artworks);
-
+        $this->set('judul', 'Karya Seni');
         $this->set(compact('artworks'));
     }
 

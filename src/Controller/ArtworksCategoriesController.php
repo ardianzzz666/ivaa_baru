@@ -21,7 +21,7 @@ class ArtworksCategoriesController extends AppController
     {
         $this->viewBuilder()->setLayout('backend');
         $artworksCategories = $this->paginate($this->ArtworksCategories);
-
+        $this->set('judul', 'Kategori Karya Seni');
         $this->set(compact('artworksCategories'));
     }
 

@@ -24,7 +24,7 @@ class ArtVenuesController extends AppController
             'contain' => ['Cities', 'Provinces', 'Countries'],
         ];
         $artVenues = $this->paginate($this->ArtVenues);
-
+        $this->set('judul', 'Ruang Seni');
         $this->set(compact('artVenues'));
     }
 

@@ -21,7 +21,7 @@ class EventsCategoriesController extends AppController
     {
         $this->viewBuilder()->setLayout('backend');
         $eventsCategories = $this->paginate($this->EventsCategories);
-
+        $this->set('judul', 'Kategori Event');
         $this->set(compact('eventsCategories'));
     }
 

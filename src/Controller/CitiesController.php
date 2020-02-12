@@ -21,7 +21,7 @@ class CitiesController extends AppController
     {
         $this->viewBuilder()->setLayout('backend');
         $cities = $this->paginate($this->Cities);
-
+        $this->set('judul', 'Kota');
         $this->set(compact('cities'));
     }
 

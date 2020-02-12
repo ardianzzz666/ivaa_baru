@@ -21,7 +21,7 @@ class DomicilesController extends AppController
     {
         $this->viewBuilder()->setLayout('backend');
         $domiciles = $this->paginate($this->Domiciles);
-
+        $this->set('judul', 'Domisili');
         $this->set(compact('domiciles'));
     }
 

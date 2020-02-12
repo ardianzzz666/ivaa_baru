@@ -33,3 +33,7 @@ TABEL IVAA FIX CRM
 10 February 2020
 ==================
 Create layout template
+
+12 February 2020
+==================
+View untuk semua tabel minus tabel artist

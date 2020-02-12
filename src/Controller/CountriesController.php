@@ -21,7 +21,7 @@ class CountriesController extends AppController
     {
         $this->viewBuilder()->setLayout('backend');
         $countries = $this->paginate($this->Countries);
-
+        $this->set('judul', 'Negara');
         $this->set(compact('countries'));
     }
 

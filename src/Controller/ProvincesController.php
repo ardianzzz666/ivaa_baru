@@ -21,7 +21,7 @@ class ProvincesController extends AppController
     {
         $this->viewBuilder()->setLayout('backend');
         $provinces = $this->paginate($this->Provinces);
-
+        $this->set('judul', 'Provinsi');
         $this->set(compact('provinces'));
     }
 

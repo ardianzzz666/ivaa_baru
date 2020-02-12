@@ -25,7 +25,7 @@ class KhazanahsController extends AppController
             'contain' => ['Artists', 'KhazanahCategories'],
         ];
         $khazanahs = $this->paginate($this->Khazanahs);
-
+        $this->set('judul', 'Khazanah');
         $this->set(compact('khazanahs'));
     }
 

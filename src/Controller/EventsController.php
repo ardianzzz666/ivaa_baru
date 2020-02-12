@@ -24,7 +24,7 @@ class EventsController extends AppController
             'contain' => ['EventOrganizers'],
         ];
         $events = $this->paginate($this->Events);
-
+        $this->set('judul', 'Events');
         $this->set(compact('events'));
     }
 

@@ -21,7 +21,7 @@ class KhazanahCategoriesController extends AppController
     {
         $this->viewBuilder()->setLayout('backend');
         $khazanahCategories = $this->paginate($this->KhazanahCategories);
-
+        $this->set('judul', 'Kategori Khazanah');
         $this->set(compact('khazanahCategories'));
     }
 
