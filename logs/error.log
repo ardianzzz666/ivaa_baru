@@ -9732,3 +9732,617 @@ Referer URL: http://localhost:8765/users/login
 Client IP: 127.0.0.1
 
 
+2020-02-12 05:23:34 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2020-02-12 05:23:34 Error: [Cake\Datasource\Exception\MissingDatasourceConfigException] The datasource configuration "debug_kit" was not found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php on line 202
+Exception Attributes: array (
+  'name' => 'debug_kit',
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:209
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/ToolbarService.php:232
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /
+Client IP: 127.0.0.1
+
+
+2020-02-12 06:12:28 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2020-02-12 06:12:28 Error: [Cake\Datasource\Exception\MissingDatasourceConfigException] The datasource configuration "debug_kit" was not found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php on line 202
+Exception Attributes: array (
+  'name' => 'debug_kit',
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:209
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/ToolbarService.php:232
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /
+Client IP: 127.0.0.1
+
+
+2020-02-12 06:12:29 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2020-02-12 06:12:29 Error: [Cake\Datasource\Exception\MissingDatasourceConfigException] The datasource configuration "debug_kit" was not found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php on line 202
+Exception Attributes: array (
+  'name' => 'debug_kit',
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:209
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/ToolbarService.php:232
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /
+Client IP: 127.0.0.1
+
+
+2020-02-12 06:12:29 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2020-02-12 06:12:29 Error: [Cake\Datasource\Exception\MissingDatasourceConfigException] The datasource configuration "debug_kit" was not found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php on line 202
+Exception Attributes: array (
+  'name' => 'debug_kit',
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:209
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/ToolbarService.php:232
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /
+Client IP: 127.0.0.1
+
+
+2020-02-12 06:12:29 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2020-02-12 06:12:29 Error: [Cake\Datasource\Exception\MissingDatasourceConfigException] The datasource configuration "debug_kit" was not found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php on line 202
+Exception Attributes: array (
+  'name' => 'debug_kit',
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:209
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/ToolbarService.php:232
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /
+Client IP: 127.0.0.1
+
+
+2020-02-12 06:12:30 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2020-02-12 06:12:30 Error: [Cake\Datasource\Exception\MissingDatasourceConfigException] The datasource configuration "debug_kit" was not found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php on line 202
+Exception Attributes: array (
+  'name' => 'debug_kit',
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:209
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/ToolbarService.php:232
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /
+Client IP: 127.0.0.1
+
+
+2020-02-12 06:12:30 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2020-02-12 06:12:30 Error: [Cake\Datasource\Exception\MissingDatasourceConfigException] The datasource configuration "debug_kit" was not found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php on line 202
+Exception Attributes: array (
+  'name' => 'debug_kit',
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:209
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/ToolbarService.php:232
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /
+Client IP: 127.0.0.1
+
+
+2020-02-12 06:12:30 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2020-02-12 06:12:30 Error: [Cake\Datasource\Exception\MissingDatasourceConfigException] The datasource configuration "debug_kit" was not found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php on line 202
+Exception Attributes: array (
+  'name' => 'debug_kit',
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:209
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/ToolbarService.php:232
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /
+Client IP: 127.0.0.1
+
+
+2020-02-12 06:12:30 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2020-02-12 06:12:30 Error: [Cake\Datasource\Exception\MissingDatasourceConfigException] The datasource configuration "debug_kit" was not found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php on line 202
+Exception Attributes: array (
+  'name' => 'debug_kit',
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:209
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/ToolbarService.php:232
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /
+Client IP: 127.0.0.1
+
+
+2020-02-12 06:12:30 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2020-02-12 06:12:30 Error: [Cake\Datasource\Exception\MissingDatasourceConfigException] The datasource configuration "debug_kit" was not found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php on line 202
+Exception Attributes: array (
+  'name' => 'debug_kit',
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:209
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/ToolbarService.php:232
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /
+Client IP: 127.0.0.1
+
+
+2020-02-12 06:12:31 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2020-02-12 06:12:31 Error: [Cake\Datasource\Exception\MissingDatasourceConfigException] The datasource configuration "debug_kit" was not found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php on line 202
+Exception Attributes: array (
+  'name' => 'debug_kit',
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:209
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/ToolbarService.php:232
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /
+Client IP: 127.0.0.1
+
+
+2020-02-12 06:12:31 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2020-02-12 06:12:31 Error: [Cake\Datasource\Exception\MissingDatasourceConfigException] The datasource configuration "debug_kit" was not found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php on line 202
+Exception Attributes: array (
+  'name' => 'debug_kit',
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:209
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/ToolbarService.php:232
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /
+Client IP: 127.0.0.1
+
+
+2020-02-12 06:12:31 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2020-02-12 06:12:31 Error: [Cake\Datasource\Exception\MissingDatasourceConfigException] The datasource configuration "debug_kit" was not found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php on line 202
+Exception Attributes: array (
+  'name' => 'debug_kit',
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:209
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/ToolbarService.php:232
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /
+Client IP: 127.0.0.1
+
+
+2020-02-12 06:12:31 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2020-02-12 06:12:31 Error: [Cake\Datasource\Exception\MissingDatasourceConfigException] The datasource configuration "debug_kit" was not found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php on line 202
+Exception Attributes: array (
+  'name' => 'debug_kit',
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:209
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/ToolbarService.php:232
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /
+Client IP: 127.0.0.1
+
+
+2020-02-12 06:12:32 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2020-02-12 06:12:32 Error: [Cake\Datasource\Exception\MissingDatasourceConfigException] The datasource configuration "debug_kit" was not found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php on line 202
+Exception Attributes: array (
+  'name' => 'debug_kit',
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:209
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/ToolbarService.php:232
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /
+Client IP: 127.0.0.1
+
+
+2020-02-12 06:12:32 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2020-02-12 06:12:32 Error: [Cake\Datasource\Exception\MissingDatasourceConfigException] The datasource configuration "debug_kit" was not found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php on line 202
+Exception Attributes: array (
+  'name' => 'debug_kit',
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:209
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/ToolbarService.php:232
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /
+Client IP: 127.0.0.1
+
+
+2020-02-12 06:12:32 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2020-02-12 06:12:32 Error: [Cake\Datasource\Exception\MissingDatasourceConfigException] The datasource configuration "debug_kit" was not found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php on line 202
+Exception Attributes: array (
+  'name' => 'debug_kit',
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:209
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/ToolbarService.php:232
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /
+Client IP: 127.0.0.1
+
+
+2020-02-12 06:12:32 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2020-02-12 06:12:32 Error: [Cake\Datasource\Exception\MissingDatasourceConfigException] The datasource configuration "debug_kit" was not found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php on line 202
+Exception Attributes: array (
+  'name' => 'debug_kit',
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:209
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/ToolbarService.php:232
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /
+Client IP: 127.0.0.1
+
+
+2020-02-12 06:12:33 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2020-02-12 06:12:33 Error: [Cake\Datasource\Exception\MissingDatasourceConfigException] The datasource configuration "debug_kit" was not found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php on line 202
+Exception Attributes: array (
+  'name' => 'debug_kit',
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:209
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/ToolbarService.php:232
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /
+Client IP: 127.0.0.1
+
+
+2020-02-12 06:16:26 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /css/form.css
+Referer URL: http://localhost:8765/users/login?redirect=%2F
+Client IP: 127.0.0.1
+
+
+2020-02-12 06:16:27 Error: [Cake\Http\Exception\MissingControllerException] Controller class Js could not be found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /js/jquery-1.6.4.min.js
+Referer URL: http://localhost:8765/users/login?redirect=%2F
+Client IP: 127.0.0.1
+
+
+2020-02-12 06:16:56 Error: [Cake\Http\Exception\MissingControllerException] Controller class Js could not be found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /js/jquery-1.6.4.min.js
+Referer URL: http://localhost:8765/users/login?redirect=%2F
+Client IP: 127.0.0.1
+
+
+2020-02-12 06:16:56 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /css/form.css
+Referer URL: http://localhost:8765/users/login?redirect=%2F
+Client IP: 127.0.0.1
+
+
+2020-02-12 06:17:03 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /css/form.css
+Referer URL: http://localhost:8765/users/login?redirect=%2F
+Client IP: 127.0.0.1
+
+
+2020-02-12 06:17:04 Error: [Cake\Http\Exception\MissingControllerException] Controller class Js could not be found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /js/jquery-1.6.4.min.js
+Referer URL: http://localhost:8765/users/login?redirect=%2F
+Client IP: 127.0.0.1
+
+
+2020-02-12 06:17:08 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /css/form.css
+Referer URL: http://localhost:8765/users/login?redirect=%2F
+Client IP: 127.0.0.1
+
+
+2020-02-12 06:17:09 Error: [Cake\Http\Exception\MissingControllerException] Controller class Js could not be found. in /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/ivaa_baru/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ivaa_baru/webroot/index.php:40
+
+Request URL: /js/jquery-1.6.4.min.js
+Referer URL: http://localhost:8765/users/login?redirect=%2F
+Client IP: 127.0.0.1
+
+
