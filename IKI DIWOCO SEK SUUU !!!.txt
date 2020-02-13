@@ -37,3 +37,7 @@ Create layout template
 12 February 2020
 ==================
 View untuk semua tabel minus tabel artist
+
+13 February 2020
+==================
+Fixing footer login
