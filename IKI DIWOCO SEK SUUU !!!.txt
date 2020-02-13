@@ -38,6 +38,10 @@ Create layout template
 ==================
 View untuk semua tabel minus tabel artist
 
+<<<<<<< HEAD
 13 February 2020
 ==================
 Fixing footer login
+=======
+test commit
+>>>>>>> master
