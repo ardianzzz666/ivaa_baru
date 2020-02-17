@@ -1,0 +1,12 @@
+
+
+
+Kemungkinan penambahan fasilitas
+1. Audio Cloud
+2. Kaledioskop setting
+3. Katalog
+
+
+======================== front end ========================******
+1. Hapus view data "SITUS INI MENAMPILKAN"
+2. 

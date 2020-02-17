@@ -48,6 +48,8 @@ class CitiesController extends AppController
      */
     public function add()
     {
+        $this->viewBuilder()->setLayout('backend');
+        $this->set('judul', 'Tambah Kota');
         $city = $this->Cities->newEmptyEntity();
         if ($this->request->is('post')) {
             $city = $this->Cities->patchEntity($city, $this->request->getData());
@@ -70,6 +72,8 @@ class CitiesController extends AppController
      */
     public function edit($id = null)
     {
+         $this->viewBuilder()->setLayout('backend');
+        $this->set('judul', 'Edit Kota');
         $city = $this->Cities->get($id, [
             'contain' => [],
         ]);

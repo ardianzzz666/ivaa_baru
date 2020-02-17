@@ -1,0 +1,166 @@
+@charset "utf-8";
+/* OntelStudio */
+.disabled {}
+input, select, textarea {
+	border:0 transparent; border:1px solid #999; padding:4px 5px; margin-right:5px;
+	-webkit-border-radius:4px; -moz-border-radius:4px; -khtml-border-radius:4px;
+	behavior: url("images/border-radius.htc.htc");
+	font-size:14px; color:#444; outline:none;}
+table input, table select, table textarea, table button {font-size:12px;}
+label {margin-right:5px;}
+label.block {display:block;}
+.label label {margin:0; padding-top:4px;}
+.label, .input {display:inline; float:left;}
+.label {text-align:right; padding:5px 0; margin-right:10px; width:120px;}
+input .240 {width:240px;}
+/*.input select {width:250px;}*/
+.input {width:580px;}
+
+/*------------------input 2 dan 3 col*/
+.input-2col {width:160px; float:left; display:inline;}
+#content-3col .full input,#content-3col .full textarea {width:400px;}
+#content-3col  .input {width:400px}
+
+.input .submit { display:inline;}
+.input.select select {/*width:100px;*/}
+.full input, .full textarea  {width:480px;}
+.full select {width:490px;}
+.input.disabled {padding-top:5px; padding-bottom:5px;}
+.input input.small {}
+.input img {margin-right:10px;}
+input.error, input.form-error, textarea.error, textarea.form-error {border-color:#F00;}
+
+.input table tr td {padding:5px 5px 5px 0;}
+
+input[type="file"] {display:block; margin-bottom:5px; background-color:#FFF;}
+label.currency {color:#777; width:50px;}
+table tr td img {margin-right:10px;}
+table tr td textarea {width:96%;}
+input[type="radio"], input[type="checkbox"] {border:none;}
+input[type="file"] {padding:0 15px;}
+span.required_mark {color:#F00; font-size:20px; line-height:13px;}
+
+/*========================================================================================== button */
+/*gray
+input[type="submit"], input[type="button"], button {
+	border:none; background:url(../../images/submit_button.png) no-repeat right -234px; color:#FFF; height:26px;
+	padding:0px 15px 0px 0px ; margin:2px 5px 0 0; position:relative;
+	}
+button span {
+	background:url(../../images/submit_button.png) no-repeat left -156px; display:block; height:22px;
+	padding:4px 0 0 15px; margin:0;  position:relative; white-space: nowrap;}
+input[type="submit"]:hover, input[type="button"]:hover, button:hover {background:url(../../images/submit_button.png) no-repeat right -260px; cursor:pointer;}
+input[type="submit"]:active, input[type="button"]:active, button:active {background:url(../../images/submit_button.png) no-repeat right -286px; color:#CCC;}
+
+input[type="submit"]:hover span, input[type="button"]:hover span, button:hover span {background:url(../../images/submit_button.png) no-repeat left -182px;}
+input[type="submit"]:active span, input[type="button"]:active span, button:active span {background:url(../../images/submit_button.png) no-repeat left -208px; margin:0;}*/
+
+/*orange
+input[type="submit"], input[type="button"], button.orange_bt {
+	border:none; background:url(../../images/submit_button.png) no-repeat right -78px; color:#FFF; height:26px;
+	padding:0px 15px 0px 0px ; margin:2px 5px 0 0; position:relative;
+	}
+button.orange_bt span {
+	background:url(../../images/submit_button.png) no-repeat left 0px; display:block; height:22px;
+	padding:4px 0 0 15px; margin:0;  position:relative; white-space: nowrap;}
+input[type="submit"]:hover, input[type="button"]:hover, button.orange_bt:hover {background:url(../../images/submit_button.png) no-repeat right -104px; cursor:pointer;}
+input[type="submit"]:active, input[type="button"]:active, button.orange_bt:active {background:url(../../images/submit_button.png) no-repeat right -130px; color:#CCC;}
+
+input[type="submit"]:hover span, input[type="button"]:hover span, button.orange_bt:hover span {background:url(../../images/submit_button.png) no-repeat left -26px;}
+input[type="submit"]:active span, input[type="button"]:active span, button.orange_bt:active span {background:url(../../images/submit_button.png) no-repeat left -52px; margin:0;}
+end orange*/
+
+button, a.link_button, input[type="submit"], input[type="button"] {
+	border:1px solid #999;
+	 -webkit-border-radius:3px; -moz-border-radius:3px;
+	background:url(../../images/submit_button.png) 0 -72px; color:white;
+	display:inline-block; height:26px; line-height:22px; padding:0 15px;
+	margin:-0px 5px 10px 0;
+	font-size:14px; cursor:pointer;}
+
+	.inline-btn button, .inline-btn a.link_button, .inline-btn input[type="submit"], .inline-btn input[type="button"]{ margin:0;}
+		.left5 {margin-left:5px;}
+
+table tr td button, table tr td input[type="submit"], table tr td input[type="button"] {margin:0;}
+
+th[colspan="2"] {}
+
+.search button { margin:0;}
+
+button:hover, a.link_button:hover, a.link_button:hover, input[type="submit"]:hover, input[type="button"]:hover {background-position:0 -96px; cursor:pointer;}
+
+button:active, a.link_button:active {background-position:0 -120px;}
+
+button:disabled, input[type="submit"]:disabled, input[type="button"]:disabled {color:#BBB; background:#999;}
+button:disabled:hover, input[type="submit"]:disabled:hover, input[type="button"]:disabled:hover {cursor:auto;}
+
+a.link_button {height:24px;}
+
+button.orange_bt, input.orange_bt {background-position:0 0;}
+button.orange_bt:hover, input.orange_bt:hover  {background-position:0 -24px;}
+button.orange_bt:active {background-position:0 -48px;}
+
+button.right {float:right;}
+
+.contact_form {margin-bottom:20px;}
+
+.date_in, .date_out {display:inline}
+.date_in img, .date_out img {margin-left:5px;}
+.date_in input, .date_out input {width:240px;}
+.date_in {float:left;} .date_out {float:left;}
+.date_out { margin-left:40px;}
+
+/*.form .input {width:480px;}*/
+
+.input .dateinput { width:150px;}
+
+.notification .row {text-align:center;}
+.notification .row img {padding-bottom:20px;}
+
+#agent .label {width:180px;}
+.button_set select {width:120px;}
+.button_set button, .button_set input[type="submit"], .multi_actions button, .multi_actions input[type="submit"] {margin:0;}
+#sidebar_right button {margin:20px 5px 10px 0;}
+table input[type="checkbox"] {margin-top:4px; margin-left:4px;}
+
+
+/* ----------------------------------------------------------------  */
+
+.block_2s {display:inline; float:left; width:200px; margin-right:10px;}
+.label_2s { float:left; text-align:right; padding:5px 0; margin-right:10px; width:80px;}
+.left { text-align:left;}
+.left input { margin-right:10px;}
+.input_long { padding:5px 0}
+.input_2s { width:100px; float:left; display:inline;}
+.input_2s input {width:90px;}
+
+.label_input { padding:5px 0; text-align:left; float:left; display:inline; width:100px;}
+
+/* ----------------------------------------------------------------  */
+
+button .20mb { margin-bottom:20px;}
+
+.block_2b {display:inline; float:left; width:280px; margin-right:10px;}
+.label_2b { float:left; text-align:right; padding:5px 0; margin-right:10px; width:80px;}
+.left input { margin-right:10px;}
+.input_long { padding:5px 0}
+.input_2b { width:180px; float:left; display:inline;}
+.input_2b input {}
+.input.add_images {width:580px;}
+
+.label_input { padding:5px 0; text-align:left; float:left; display:inline; width:100px;}
+
+#reservation_list .label {width:180px; font-weight:bold; margin-right:20px;}
+
+.main_inner_booking .input.full input, .main_inner_booking .input.full textarea {width:200px;}
+
+/* Agustus 11*/
+input[type="file"] {display:block; margin-bottom:5px; padding:0; padding:5px;}
+
+select { padding: 4px 2px 4px 2px;}
+select option {padding-right:10px;}
+
+/* Tambah Pelaku Seni */
+#pelaku-seni-added { color:#333; }
+	#pelaku-seni-added ul, #pelaku-seni-added li { margin:0; }
+	#pelaku-seni-added span { color:#ccc; margin:0 10px;}
