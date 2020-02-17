@@ -48,6 +48,8 @@ class CountriesController extends AppController
      */
     public function add()
     {
+        $this->set('judul', 'Add Negara');
+        $this->viewBuilder()->setLayout('backend');
         $country = $this->Countries->newEmptyEntity();
         if ($this->request->is('post')) {
             $country = $this->Countries->patchEntity($country, $this->request->getData());
@@ -70,6 +72,8 @@ class CountriesController extends AppController
      */
     public function edit($id = null)
     {
+          $this->set('judul', 'Edit Negara');
+        $this->viewBuilder()->setLayout('backend');
         $country = $this->Countries->get($id, [
             'contain' => [],
         ]);
