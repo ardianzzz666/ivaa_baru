@@ -48,6 +48,8 @@ class DomicilesController extends AppController
      */
     public function add()
     {
+        $this->viewBuilder()->setLayout('backend');
+        $this->set('judul','Tambah Domisili');
         $domicile = $this->Domiciles->newEmptyEntity();
         if ($this->request->is('post')) {
             $domicile = $this->Domiciles->patchEntity($domicile, $this->request->getData());
@@ -70,6 +72,8 @@ class DomicilesController extends AppController
      */
     public function edit($id = null)
     {
+        $this->viewBuilder()->setLayout('backend');
+        $this->set('judul','Edit Domisili');
         $domicile = $this->Domiciles->get($id, [
             'contain' => [],
         ]);

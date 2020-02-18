@@ -48,6 +48,8 @@ class ProvincesController extends AppController
      */
     public function add()
     {
+        $this->viewBuilder()->setLayout('backend');
+         $this->set('judul', 'Tambah Propinsi');
         $province = $this->Provinces->newEmptyEntity();
         if ($this->request->is('post')) {
             $province = $this->Provinces->patchEntity($province, $this->request->getData());
@@ -70,6 +72,8 @@ class ProvincesController extends AppController
      */
     public function edit($id = null)
     {
+        $this->viewBuilder()->setLayout('backend');
+         $this->set('judul', 'Edit Propinsi');
         $province = $this->Provinces->get($id, [
             'contain' => [],
         ]);
