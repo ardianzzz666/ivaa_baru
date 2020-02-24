@@ -48,6 +48,8 @@ class EventsCategoriesController extends AppController
      */
     public function add()
     {
+        $this->viewBuilder()->setLayout('backend');
+        $this->set('judul', 'Tambah Event Kategori');
         $eventsCategory = $this->EventsCategories->newEmptyEntity();
         if ($this->request->is('post')) {
             $eventsCategory = $this->EventsCategories->patchEntity($eventsCategory, $this->request->getData());
@@ -70,6 +72,8 @@ class EventsCategoriesController extends AppController
      */
     public function edit($id = null)
     {
+        $this->viewBuilder()->setLayout('backend');
+        $this->set('judul', 'Edit Event Kategori');
         $eventsCategory = $this->EventsCategories->get($id, [
             'contain' => [],
         ]);

@@ -8,7 +8,16 @@
 
     <title>Digital Archive of Indonesian Contemporary Art</title>
 
-    <?php echo $this->Html->css(array('reset.css', 'text.css', 'form.css', 'admin_style.css', 'jquery-ui-1.8.16.custom.css', 'jquery.alerts.css')); ?>
+   
+
+    <link rel="stylesheet" type="text/css" href="/css/backend/reset.css">
+    <link rel="stylesheet" type="text/css" href="/css/backend/text.css">
+    <link rel="stylesheet" type="text/css" href="/css/backend/form.css">
+    <link rel="stylesheet" type="text/css" href="/css/backend/admin_style.css">
+    <link rel="stylesheet" type="text/css" href="/css/jquery/jquery-ui-1.8.16.custom.css">
+    <link rel="stylesheet" type="text/css" href="/css/jquery.alerts.css">
+
+
 
     <!-- <script type="text/javascript" async="" src="/Digital Archive of Indonesian Contemporary Art_files/ga.js"></script> -->
     <script type="text/javascript" src="/js/jquery/jquery-1.6.4.min.js"></script>

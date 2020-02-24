@@ -51,6 +51,8 @@ class ArtVenuesController extends AppController
      */
     public function add()
     {
+        $this->viewBuilder()->setLayout('backend');
+        $this->set('judul', 'Tambah Ruang Seni');
         $artVenue = $this->ArtVenues->newEmptyEntity();
         if ($this->request->is('post')) {
             $artVenue = $this->ArtVenues->patchEntity($artVenue, $this->request->getData());
@@ -76,6 +78,8 @@ class ArtVenuesController extends AppController
      */
     public function edit($id = null)
     {
+        $this->viewBuilder()->setLayout('backend');
+        $this->set('judul', 'Edit Ruang Seni');
         $artVenue = $this->ArtVenues->get($id, [
             'contain' => [],
         ]);

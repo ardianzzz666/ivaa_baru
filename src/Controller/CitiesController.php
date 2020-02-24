@@ -72,7 +72,7 @@ class CitiesController extends AppController
      */
     public function edit($id = null)
     {
-         $this->viewBuilder()->setLayout('backend');
+        $this->viewBuilder()->setLayout('backend');
         $this->set('judul', 'Edit Kota');
         $city = $this->Cities->get($id, [
             'contain' => [],

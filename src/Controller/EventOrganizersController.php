@@ -48,6 +48,8 @@ class EventOrganizersController extends AppController
      */
     public function add()
     {
+        $this->viewBuilder()->setLayout('backend');
+        $this->set('judul', 'Tambah Event Organizer');
         $eventOrganizer = $this->EventOrganizers->newEmptyEntity();
         if ($this->request->is('post')) {
             $eventOrganizer = $this->EventOrganizers->patchEntity($eventOrganizer, $this->request->getData());
@@ -70,6 +72,8 @@ class EventOrganizersController extends AppController
      */
     public function edit($id = null)
     {
+        $this->viewBuilder()->setLayout('backend');
+        $this->set('judul', 'Edit Event Organizer');
         $eventOrganizer = $this->EventOrganizers->get($id, [
             'contain' => [],
         ]);

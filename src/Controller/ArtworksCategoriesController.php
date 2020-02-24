@@ -48,6 +48,8 @@ class ArtworksCategoriesController extends AppController
      */
     public function add()
     {
+        $this->viewBuilder()->setLayout('backend');
+        $this->set('judul', 'Kategori Karya Seni');
         $artworksCategory = $this->ArtworksCategories->newEmptyEntity();
         if ($this->request->is('post')) {
             $artworksCategory = $this->ArtworksCategories->patchEntity($artworksCategory, $this->request->getData());
@@ -70,6 +72,8 @@ class ArtworksCategoriesController extends AppController
      */
     public function edit($id = null)
     {
+        $this->viewBuilder()->setLayout('backend');
+        $this->set('judul', 'Kategori Karya Seni');
         $artworksCategory = $this->ArtworksCategories->get($id, [
             'contain' => [],
         ]);
