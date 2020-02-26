@@ -48,6 +48,8 @@ class MediaController extends AppController
      */
     public function add()
     {
+        $this->viewBuilder()->setLayout('backend');
+        $this->set('judul', 'Tambah Media');
         $media = $this->Media->newEmptyEntity();
         if ($this->request->is('post')) {
             $media = $this->Media->patchEntity($media, $this->request->getData());
@@ -71,6 +73,8 @@ class MediaController extends AppController
      */
     public function edit($id = null)
     {
+        $this->viewBuilder()->setLayout('backend');
+        $this->set('judul', 'Edit Media');
         $media = $this->Media->get($id, [
             'contain' => ['Artworks'],
         ]);

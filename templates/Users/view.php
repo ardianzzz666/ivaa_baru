@@ -4,7 +4,7 @@
  * @var \App\Model\Entity\User $user
  */
 ?>
-<div class="row">
+<!-- <div class="row">
     <aside class="column">
         <div class="side-nav">
             <h4 class="heading"><?= __('Actions') ?></h4>
@@ -43,75 +43,128 @@
                     <td><?= h($user->modified) ?></td>
                 </tr>
             </table>
-            <div class="related">
-                <h4><?= __('Related Artists') ?></h4>
-                <?php if (!empty($user->artists)) : ?>
-                <div class="table-responsive">
-                    <table>
-                        <tr>
-                            <th><?= __('Id') ?></th>
-                            <th><?= __('User Id') ?></th>
-                            <th><?= __('Fullname') ?></th>
-                            <th><?= __('Nickname') ?></th>
-                            <th><?= __('Birth Country') ?></th>
-                            <th><?= __('Birth City') ?></th>
-                            <th><?= __('Birth Date') ?></th>
-                            <th><?= __('Birth Month') ?></th>
-                            <th><?= __('Birth Year') ?></th>
-                            <th><?= __('Not Alive') ?></th>
-                            <th><?= __('Living Address') ?></th>
-                            <th><?= __('Living City') ?></th>
-                            <th><?= __('Living Country') ?></th>
-                            <th><?= __('Domicile') ?></th>
-                            <th><?= __('Email') ?></th>
-                            <th><?= __('Phone') ?></th>
-                            <th><?= __('Website') ?></th>
-                            <th><?= __('Created') ?></th>
-                            <th><?= __('Modified') ?></th>
-                            <th><?= __('Is Registered') ?></th>
-                            <th><?= __('Slug') ?></th>
-                            <th><?= __('Description') ?></th>
-                            <th><?= __('Obit') ?></th>
-                            <th><?= __('Description En') ?></th>
-                            <th class="actions"><?= __('Actions') ?></th>
-                        </tr>
-                        <?php foreach ($user->artists as $artists) : ?>
-                        <tr>
-                            <td><?= h($artists->id) ?></td>
-                            <td><?= h($artists->user_id) ?></td>
-                            <td><?= h($artists->fullname) ?></td>
-                            <td><?= h($artists->nickname) ?></td>
-                            <td><?= h($artists->birth_country) ?></td>
-                            <td><?= h($artists->birth_city) ?></td>
-                            <td><?= h($artists->birth_date) ?></td>
-                            <td><?= h($artists->birth_month) ?></td>
-                            <td><?= h($artists->birth_year) ?></td>
-                            <td><?= h($artists->not_alive) ?></td>
-                            <td><?= h($artists->living_address) ?></td>
-                            <td><?= h($artists->living_city) ?></td>
-                            <td><?= h($artists->living_country) ?></td>
-                            <td><?= h($artists->domicile) ?></td>
-                            <td><?= h($artists->email) ?></td>
-                            <td><?= h($artists->phone) ?></td>
-                            <td><?= h($artists->website) ?></td>
-                            <td><?= h($artists->created) ?></td>
-                            <td><?= h($artists->modified) ?></td>
-                            <td><?= h($artists->is_registered) ?></td>
-                            <td><?= h($artists->slug) ?></td>
-                            <td><?= h($artists->description) ?></td>
-                            <td><?= h($artists->obit) ?></td>
-                            <td><?= h($artists->description_en) ?></td>
-                            <td class="actions">
-                                <?= $this->Html->link(__('View'), ['controller' => 'Artists', 'action' => 'view', $artists->id]) ?>
-                                <?= $this->Html->link(__('Edit'), ['controller' => 'Artists', 'action' => 'edit', $artists->id]) ?>
-                                <?= $this->Form->postLink(__('Delete'), ['controller' => 'Artists', 'action' => 'delete', $artists->id], ['confirm' => __('Are you sure you want to delete # {0}?', $artists->id)]) ?>
-                            </td>
-                        </tr>
-                        <?php endforeach; ?>
-                    </table>
+            
+    </div>
+</div> -->
+<div class="inner_1">
+    <div class="inner_2">
+        <div class="inner_3">
+            <div class="inner_4 clearfix">
+
+                <div class="row">
+                    <div class="row20 display">
+                        <h5 class="subheading">Info User</h5>
+
+                        <div class="row clearfix altrow">
+                            <div  class="label">Id</div>
+                            <div  class="input disabled">1</div>
+                        </div>
+                        <div class="row clearfix">
+                            <div  class="label">Username</div>
+                            <div  class="input disabled"><?= h($user->username) ?></div>
+                        </div>
+                        <div class="row clearfix altrow">
+                            <div  class="label">Email</div>
+                            <div  class="input disabled"><?= h($user->email) ?></div>
+                        </div>
+                        <div class="row clearfix">
+                            <div  class="label">Password</div>
+                            <div  class="input disabled"><?= h($user->password) ?></div>
+                        </div>
+                        <div class="row clearfix altrow">
+                            <div  class="label">Group</div>
+                            <div  class="input disabled"><a href="#"><?= $this->Number->format($user->id) ?></a></div>
+                        </div>
+                        <div class="row clearfix">
+                            <div  class="label">Tipe</div>
+                            <div  class="input disabled">Admin</div>
+                        </div>
+                        <div class="row clearfix altrow">
+                            <div  class="label">Status</div>
+                            <div  class="input disabled">1</div>
+                        </div>
+                        <div class="row clearfix">
+                            <div  class="label">Terakhir Login</div>
+                            <div  class="input disabled">2011-09-26 12:48:00</div>
+                        </div>
+                    </div>
+
+                    <div class="row20">
+                        <?= $this->Html->link(__('Kembali ke Daftar'), ['action' => 'index'], ['class' => 'side-nav-item']) ?>                       
+                    </div>
                 </div>
-                <?php endif; ?>
+
             </div>
         </div>
     </div>
 </div>
+<div class="related">
+                <h4><?= __('Related Artists') ?></h4>
+                <?php if (!empty($user->artists)) : ?>
+                    <div class="table-responsive">
+                        <table>
+                            <tr>
+                                <th><?= __('Id') ?></th>
+                                <th><?= __('User Id') ?></th>
+                                <th><?= __('Fullname') ?></th>
+                                <th><?= __('Nickname') ?></th>
+                                <th><?= __('Birth Country') ?></th>
+                                <th><?= __('Birth City') ?></th>
+                                <th><?= __('Birth Date') ?></th>
+                                <th><?= __('Birth Month') ?></th>
+                                <th><?= __('Birth Year') ?></th>
+                                <th><?= __('Not Alive') ?></th>
+                                <th><?= __('Living Address') ?></th>
+                                <th><?= __('Living City') ?></th>
+                                <th><?= __('Living Country') ?></th>
+                                <th><?= __('Domicile') ?></th>
+                                <th><?= __('Email') ?></th>
+                                <th><?= __('Phone') ?></th>
+                                <th><?= __('Website') ?></th>
+                                <th><?= __('Created') ?></th>
+                                <th><?= __('Modified') ?></th>
+                                <th><?= __('Is Registered') ?></th>
+                                <th><?= __('Slug') ?></th>
+                                <th><?= __('Description') ?></th>
+                                <th><?= __('Obit') ?></th>
+                                <th><?= __('Description En') ?></th>
+                                <th class="actions"><?= __('Actions') ?></th>
+                            </tr>
+                            <?php foreach ($user->artists as $artists) : ?>
+                                <tr>
+                                    <td><?= h($artists->id) ?></td>
+                                    <td><?= h($artists->user_id) ?></td>
+                                    <td><?= h($artists->fullname) ?></td>
+                                    <td><?= h($artists->nickname) ?></td>
+                                    <td><?= h($artists->birth_country) ?></td>
+                                    <td><?= h($artists->birth_city) ?></td>
+                                    <td><?= h($artists->birth_date) ?></td>
+                                    <td><?= h($artists->birth_month) ?></td>
+                                    <td><?= h($artists->birth_year) ?></td>
+                                    <td><?= h($artists->not_alive) ?></td>
+                                    <td><?= h($artists->living_address) ?></td>
+                                    <td><?= h($artists->living_city) ?></td>
+                                    <td><?= h($artists->living_country) ?></td>
+                                    <td><?= h($artists->domicile) ?></td>
+                                    <td><?= h($artists->email) ?></td>
+                                    <td><?= h($artists->phone) ?></td>
+                                    <td><?= h($artists->website) ?></td>
+                                    <td><?= h($artists->created) ?></td>
+                                    <td><?= h($artists->modified) ?></td>
+                                    <td><?= h($artists->is_registered) ?></td>
+                                    <td><?= h($artists->slug) ?></td>
+                                    <td><?= h($artists->description) ?></td>
+                                    <td><?= h($artists->obit) ?></td>
+                                    <td><?= h($artists->description_en) ?></td>
+                                    <td class="actions">
+                                        <?= $this->Html->link(__('View'), ['controller' => 'Artists', 'action' => 'view', $artists->id]) ?>
+                                        <?= $this->Html->link(__('Edit'), ['controller' => 'Artists', 'action' => 'edit', $artists->id]) ?>
+                                        <?= $this->Form->postLink(__('Delete'), ['controller' => 'Artists', 'action' => 'delete', $artists->id], ['confirm' => __('Are you sure you want to delete # {0}?', $artists->id)]) ?>
+                                    </td>
+                                </tr>
+                            <?php endforeach; ?>
+                        </table>
+                    </div>
+                <?php endif; ?>
+            </div>
+        

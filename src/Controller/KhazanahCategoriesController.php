@@ -21,7 +21,7 @@ class KhazanahCategoriesController extends AppController
     {
         $this->viewBuilder()->setLayout('backend');
         $khazanahCategories = $this->paginate($this->KhazanahCategories);
-        $this->set('judul', 'Kategori Khazanah');
+        $this->set('judul', 'Khazanah Kategori');
         $this->set(compact('khazanahCategories'));
     }
 
@@ -48,6 +48,8 @@ class KhazanahCategoriesController extends AppController
      */
     public function add()
     {
+        $this->viewBuilder()->setLayout('backend');
+        $this->set('judul', 'Tambah Kategori');
         $khazanahCategory = $this->KhazanahCategories->newEmptyEntity();
         if ($this->request->is('post')) {
             $khazanahCategory = $this->KhazanahCategories->patchEntity($khazanahCategory, $this->request->getData());
@@ -70,6 +72,8 @@ class KhazanahCategoriesController extends AppController
      */
     public function edit($id = null)
     {
+        $this->viewBuilder()->setLayout('backend');
+        $this->set('judul', 'Edit Kategori');
         $khazanahCategory = $this->KhazanahCategories->get($id, [
             'contain' => [],
         ]);

@@ -8,9 +8,15 @@
 
     <title>Digital Archive of Indonesian Contemporary Art | Login</title>
 
-    <?php echo $this->Html->css(array('reset.css', 'text.css', 'form.css', 'style.css', 'admin_style.css','jquery-ui-1.8.16.custom.css')); ?>
+    
+    <link rel="stylesheet" type="text/css" href="/css/backend/reset.css">
+    <link rel="stylesheet" type="text/css" href="/css/backend/text.css">
+    <link rel="stylesheet" type="text/css" href="/css/backend/form.css">
+    <link rel="stylesheet" type="text/css" href="/css/backend/admin_style.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/jquery/jquery-ui-1.8.16.custom.css">
 
-    <script type="text/javascript" src="/js/jquery-1.6.4.min.js"></script>
+    <script type="text/javascript" src="/js/jquery/jquery-1.6.4.min.js"></script>
     <script type="text/javascript" src="/js/jquery/jquery-ui.min.js"></script>
     <script type="text/javascript" src="/js/jquery/jquery.validate.min.js"></script>
     <script type="text/javascript" src="/js/ivaa/config.js"></script>

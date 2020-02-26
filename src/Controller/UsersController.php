@@ -22,7 +22,7 @@ class UsersController extends AppController
     {
         $this->viewBuilder()->setLayout('backend');
         $users = $this->paginate($this->Users);
-
+        $this->set('judul', 'User');
         $this->set(compact('users'));
     }
 
@@ -35,6 +35,8 @@ class UsersController extends AppController
      */
     public function view($id = null)
     {
+         $this->viewBuilder()->setLayout('backend');
+         $this->set('judul', 'User Detail');
         $user = $this->Users->get($id, [
             'contain' => ['Artists'],
         ]);
@@ -49,6 +51,8 @@ class UsersController extends AppController
      */
     public function add()
     {
+        $this->viewBuilder()->setLayout('backend');
+        $this->set('judul', 'Tambah User');
         $user = $this->Users->newEmptyEntity();
         if ($this->request->is('post')) {
             $user = $this->Users->patchEntity($user, $this->request->getData());
@@ -71,6 +75,8 @@ class UsersController extends AppController
      */
     public function edit($id = null)
     {
+        $this->viewBuilder()->setLayout('backend');
+        $this->set('judul', 'Edit User');
         $user = $this->Users->get($id, [
             'contain' => [],
         ]);

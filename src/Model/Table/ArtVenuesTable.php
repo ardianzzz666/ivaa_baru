@@ -76,11 +76,11 @@ class ArtVenuesTable extends Table
             ->requirePresence('title', 'create')
             ->notEmptyString('title');
 
-        $validator
-            ->scalar('sub_title')
-            ->maxLength('sub_title', 255)
-            ->requirePresence('sub_title', 'create')
-            ->notEmptyString('sub_title');
+        // $validator
+        //     ->scalar('sub_title')
+        //     ->maxLength('sub_title', 255)
+        //     ->requirePresence('sub_title', 'create')
+        //     ->notEmptyString('sub_title');
 
         $validator
             ->scalar('manager_name')

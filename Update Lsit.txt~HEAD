@@ -1,0 +1,58 @@
+TABEL IVAA FIX CRM
+===================
+
+
+04 February 2020
+=================
+• provinces (provinces)
+• artworks_categories (artworks_categories)
+• country (countries)
+• cities (cities)
+• domiciles (domiciles)
+• creative_industries (cretive-industries)
+• art_venues (art-vernues)
+• media (media)
+• artworks (artworks)
+• artworks_files (artwork-files)
+• event_organizers (event-organizers)
+• events_category (events-categories)
+
+05 February 2020
+==================
+• events (events)
+• events_details (events-details)
+• khazanah_categories (khazanah-categories)
+• khazanahs (khazanahs)
+• collectives (collectives)
+• users (users)
+
+07 February 2020
+==================
+• update artist (artists)
+
+10 February 2020
+==================
+Create layout template
+
+12 February 2020
+==================
+View untuk semua tabel minus tabel artist
+
+<<<<<<< HEAD:Update Lsit.txt
+17 februari 2020
+==========================
+Templating Create dan update table
+- country
+- PRovinces
+- city
+- Domiciles
+=======
+<<<<<<< HEAD
+13 February 2020
+==================
+Fixing footer login
+=======
+test commit
+>>>>>>> master
+Ivaa wes tak update meneh tinggal kurang menu individu, kolektif, list karya seni, list khazanah, kro user
+>>>>>>> master:IKI DIWOCO SEK SUUU !!!.txt

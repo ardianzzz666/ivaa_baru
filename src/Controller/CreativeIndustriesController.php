@@ -19,6 +19,7 @@ class CreativeIndustriesController extends AppController
      */
     public function index()
     {
+        $this->set('judul', 'Kategori Pelaku Seni');
         $this->viewBuilder()->setLayout('backend');
         $creativeIndustries = $this->paginate($this->CreativeIndustries);
 
@@ -48,6 +49,8 @@ class CreativeIndustriesController extends AppController
      */
     public function add()
     {
+        $this->set('judul', 'Tambah Kategori Pelaku Seni');
+        $this->viewBuilder()->setLayout('backend');
         $creativeIndustry = $this->CreativeIndustries->newEmptyEntity();
         if ($this->request->is('post')) {
             $creativeIndustry = $this->CreativeIndustries->patchEntity($creativeIndustry, $this->request->getData());
@@ -70,6 +73,8 @@ class CreativeIndustriesController extends AppController
      */
     public function edit($id = null)
     {
+        $this->set('judul', 'Tambah Kategori Pelaku Seni');
+        $this->viewBuilder()->setLayout('backend');
         $creativeIndustry = $this->CreativeIndustries->get($id, [
             'contain' => [],
         ]);
