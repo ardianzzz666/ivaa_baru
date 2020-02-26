@@ -149,7 +149,7 @@
                 </div>
                 <!--end .row-->
                 <div class="row common">
-                    <h6 class="common"><a href="#">User</a></h6>
+                    <h6 class="common"><?php echo $this->Html->link('User', ['controller' => 'users', 'action' => 'index', '_full' => true]); ?> </h6>
                 </div>
                 <!--end .row-->
                 <div class="row common">

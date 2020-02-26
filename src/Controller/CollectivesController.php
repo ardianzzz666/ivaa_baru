@@ -20,6 +20,7 @@ class CollectivesController extends AppController
     public function index()
     {
         $this->viewBuilder()->setLayout('backend');
+        $this->set('judul', 'Collectives List');
         $this->paginate = [
             'contain' => ['Domiciles'],
         ];
@@ -37,6 +38,8 @@ class CollectivesController extends AppController
      */
     public function view($id = null)
     {
+        $this->viewBuilder()->setLayout('backend');
+        $this->set('judul', 'Collectives Detail');
         $collective = $this->Collectives->get($id, [
             'contain' => ['Domiciles', 'Artists'],
         ]);
@@ -51,6 +54,9 @@ class CollectivesController extends AppController
      */
     public function add()
     {
+
+        $this->viewBuilder()->setLayout('backend');
+        $this->set('judul', 'Add Collective');
         $collective = $this->Collectives->newEmptyEntity();
         if ($this->request->is('post')) {
             $collective = $this->Collectives->patchEntity($collective, $this->request->getData());
@@ -75,6 +81,8 @@ class CollectivesController extends AppController
      */
     public function edit($id = null)
     {
+         $this->viewBuilder()->setLayout('backend');
+        $this->set('judul', 'Edit Collective');
         $collective = $this->Collectives->get($id, [
             'contain' => ['Artists'],
         ]);
