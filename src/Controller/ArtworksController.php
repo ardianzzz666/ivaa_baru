@@ -37,6 +37,8 @@ class ArtworksController extends AppController
      */
     public function view($id = null)
     {
+        $this->viewBuilder()->setLayout('backend');
+        $this->set('judul','Lihat Karya Seni');
         $artwork = $this->Artworks->get($id, [
             'contain' => ['ArtworksCategories', 'Events', 'Khazanahs', 'Media', 'ArtworksCreators', 'ArtworksFiles'],
         ]);
@@ -51,6 +53,8 @@ class ArtworksController extends AppController
      */
     public function add()
     {
+        $this->viewBuilder()->setLayout('backend');
+        $this->set('judul','Tambah Karya Seni');
         $artwork = $this->Artworks->newEmptyEntity();
         if ($this->request->is('post')) {
             $artwork = $this->Artworks->patchEntity($artwork, $this->request->getData());

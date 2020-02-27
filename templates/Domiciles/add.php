@@ -45,11 +45,9 @@
                                         <div class="input text required">
                                             <!-- <input name="data[Domicile][name]" type="text" maxlength="50" id="DomicileName"> -->
                                             <?php
-<<<<<<< HEAD
-                                             echo $this->Form->control('name');
-=======
+
                                              echo $this->Form->input('name');
->>>>>>> master
+
                                             ?>
                                         </div>
                                     </div>
@@ -60,11 +58,9 @@
                                     <div class="input">
                                         <div class="input text required">
                                             <!-- <input name="data[Domicile][name_en]" type="text" maxlength="155" id="DomicileNameEn"> -->
-<<<<<<< HEAD
-                                            <?php echo $this->Form->control('name_en');?>
-=======
+
                                             <?php echo $this->Form->input('name_en');?>
->>>>>>> master
+
                                         </div>
                                     </div>
                                 </div>
