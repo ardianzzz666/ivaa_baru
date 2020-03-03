@@ -52,6 +52,8 @@ class KhazanahsController extends AppController
      */
     public function add()
     {
+        $this->viewBuilder()->setLayout('backend');
+        $this->set('judul', 'Tambah Khazanah');
         $khazanah = $this->Khazanahs->newEmptyEntity();
         if ($this->request->is('post')) {
             $khazanah = $this->Khazanahs->patchEntity($khazanah, $this->request->getData());
@@ -62,6 +64,7 @@ class KhazanahsController extends AppController
             }
             $this->Flash->error(__('The khazanah could not be saved. Please, try again.'));
         }
+        //$eventOrganizers = $this->Events->EventOrganizers->find('list', ['limit' => 200]);
         $artists = $this->Khazanahs->Artists->find('list', ['keyField' => 'id','valueField' => 'fullname'], ['limit' => 200]);
         $khazanahCategories = $this->Khazanahs->KhazanahCategories->find('list', ['limit' => 200]);
         $artworks = $this->Khazanahs->Artworks->find('list', ['limit' => 200]);
@@ -78,6 +81,8 @@ class KhazanahsController extends AppController
      */
     public function edit($id = null)
     {
+        $this->viewBuilder()->setLayout('backend');
+        $this->set('judul', 'Edit Khazanah');
         $khazanah = $this->Khazanahs->get($id, [
             'contain' => ['Artworks', 'Events'],
         ]);

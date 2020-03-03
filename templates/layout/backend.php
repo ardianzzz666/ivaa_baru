@@ -25,18 +25,9 @@
     <script type="text/javascript" src="/js/jquery/jquery.validate.min.js"></script>
     <script type="text/javascript" src="/js/jquery/jquery.alerts.js"></script>
     <script type="text/javascript" src="/js/default.js"></script>
-    <!-- <script type="text/javascript">
-        //<![CDATA[
-        $.extend(Project, {
-            "basePath": "\/",
-            "params": {
-                "controller": "artists",
-                "action": "admin_index"
-            }
-        });
-        //]]>
-    </script> -->
     <script type="text/javascript" src="/js/bootstrap.js"></script>
+    <script src="https://cdn.tinymce.com/4/tinymce.min.js"></script>
+    <script>tinymce.init({selector:'textarea'});</script>
 
 
 </head>
