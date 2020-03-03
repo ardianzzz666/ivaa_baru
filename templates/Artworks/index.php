@@ -26,7 +26,9 @@
                         </form>
                     </div>
                     <div class="option common">
-                        <a href="http://archive.ivaa-online.org/admin/artists/add" class="add">Tambah Pelaku Individu</a> </div>
+                        <!-- <?= $this->Html->link(__('View'), ['action' => 'add', $artwork->id]) ?> -->
+                         <?= $this->Html->link(__('Tambah Karya Seni'), ['action' => 'add'], ['class' => 'button float-right add']) ?>
+                       </div>
                 </div>
 
                 <div class="table_row common">
